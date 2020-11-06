@@ -1,0 +1,55 @@
+/*
+Theme Name: VidoRev Child
+Template: vidorev
+Theme URI: http://demo.beeteam368.com/vidorev/
+Author: BeeTeam368
+Author URI: http://themeforest.net/user/beeteam368
+Description: Video WordPress Theme
+Version: 1.0.4
+License: Themeforest Licence
+License URI: http://themeforest.net/licenses
+Text Domain: vidorev
+Tags: translation-ready, one-column, two-columns, three-columns, right-sidebar, custom-menu, editor-style, featured-images, theme-options, rtl-language-support
+*/
+.nav-logo .nav-logo-img a.logo-link {
+    margin: 0px auto;
+}
+.nav-logo-img img {
+    max-height: 100px;
+}
+body.header-vid-side.admin-bar .side-menu-wrapper {
+    top: 130px;
+}
+.header-side .nav-side-menu, .header-side .top-submit-video {
+    min-height: 100px;
+}
+.main-nav {
+    background-color: #252525;
+}
+body .elementor-inner {
+    margin-top: 40px;
+}
+.primary-content-wrap {
+    margin-top: 5%;
+}
+button:not([aria-controls]):not([aria-live]), input[type="button"], input[type="submit"], input[type="reset"], .basic-button-default, .next-content a, .prev-content a, .pmpro_btn, .pmpro_btn:link, .pmpro_content_message a, .pmpro_content_message a:link, .pmpro_checkout .pmpro_btn, #nav-below.navigation a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .wp-block-button__link {
+    background-color: #009ece;
+    background: linear-gradient(to left bottom, #009ece 50%, #00638c 50%);
+}
+.contact-submit-btn {
+    text-align: center;
+}
+.contact-submit-btn input[type="submit"] {
+    width: 30%;
+    font-size: 18px;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #009ece;
+}
+.archive-heading {
+    margin-bottom: 15px;
+}
+body.header-vid-side .side-menu-wrapper {
+    top: 100px;
+}
+

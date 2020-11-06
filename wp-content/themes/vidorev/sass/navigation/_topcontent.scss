@@ -1,0 +1,139 @@
+.top-content{
+	@media(max-width:767px){
+		display:none;
+	}
+	position:relative;	
+	.nav-logo{
+		@media(max-width:991px){
+			display:none;
+		}
+		max-width:33%;
+		.nav-logo-img{
+			img {
+				max-height:70px;
+				max-width:100%;
+			}
+		}
+	}
+	.top-ad{
+		@media(min-width:992px){
+			max-width:67%;
+		}					
+	}
+	.top-ad-content{					
+		img{
+			display:block;						
+		}
+		iframe{
+			margin:0;
+			padding:0;
+		}
+		.top-ad-wrap{
+			max-width:728px;
+			width:728px;
+			margin-left:auto;
+			margin-right:auto;
+			@media(min-width:992px) and (max-width:1199px){
+				max-width:612px;
+				width:612px;
+			}
+			@media(max-width:991px){
+				max-width:690px;
+				width:690px;
+			}
+		}
+	}
+	.nav-logo-img,
+	.top-ad-content{
+		min-height:140px;
+		@include flexVerticalAlignMiddle;
+		@media(max-width:1199px){
+			min-height:130px;
+		}
+		@media(max-width:767px){
+			min-height:100px;
+		}
+		@media(max-width:575px){
+			min-height:0;
+			padding:20px 0;
+		}
+	}
+}
+.header-default{
+	.top-content{
+		background-color: $color__topcontent_background;
+	}
+}
+
+.header-classic{
+	.top-content{		
+		.nav-logo{			
+			.nav-logo-img {
+				min-height:0;
+				padding-top:50px;
+				padding-bottom:50px;
+				img{
+					max-height: none;
+				}
+			}
+		}
+	}
+}
+
+.header-classic,
+.header-blog {
+	.top-content{
+		.nav-logo{
+			max-width:100%;
+			.nav-logo-img{
+				@include flexRowCenter;
+			}
+		}
+	}
+}
+
+.header-blog {
+	.top-content{
+		.nav-logo{			
+			.nav-logo-img {
+				min-height:0;
+				padding-top:50px;
+				padding-bottom:50px;
+				img{
+					max-height: none;
+				}
+			}
+		}
+	}		
+}
+
+.header-sport {
+	@media(min-width:992px){
+		.top-content >.site__container > .site__row {
+			>*:first-child{
+				padding-left:0;
+			}
+			>*:last-child{
+				padding-right:0;
+			}
+		}
+	}
+}
+
+.top-header-ads-mobile{
+	@media(min-width:768px){
+		display:none;
+	}
+
+	padding:25px 0;
+
+	.top-header-ads-mobile-content{
+		img{
+			display:block;						
+		}
+		iframe{
+			margin:0;
+			padding:0;
+		}
+	}	
+}

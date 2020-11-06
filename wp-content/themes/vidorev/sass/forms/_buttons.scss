@@ -1,0 +1,240 @@
+button, 
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"],
+.basic-button,
+.next-content a,
+.prev-content a,
+.pmpro_btn, 
+.pmpro_btn:link, 
+.pmpro_content_message a, 
+.pmpro_content_message a:link,
+.pmpro_checkout .pmpro_btn,
+#nav-below.navigation a,
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.wp-block-button__link {
+	border: none; 	
+	background-image: none; 
+	text-shadow: none; 
+
+	vertical-align: top; 
+	display: inline-block; 
+	text-decoration: none; 	
+
+	outline: none;
+	margin: 0;
+
+	cursor:pointer;
+
+	text-align:center;
+
+	min-width:130px;
+
+	@include border-radius(0);
+	@include transiton-builder(color 0.3s, background-color 0.3s, border-color 0.3s, opacity 0.3s, visibility 0.3s);
+	@include prefixer(box-shadow, none, spec webkit);  
+
+	-webkit-tap-highlight-color: transparent;
+
+	font-family: $font__heading;
+	font-size: $h7_font_size;
+	font-weight: $font__weight-extra;
+	line-height: $font__heading-line-height;	
+	letter-spacing: $font__heading-letter-spacing;	
+	text-transform: $font__heading-text-transform;
+	text-decoration: $font__heading-text-decoration;
+	font-style: $font__heading-style;
+
+	&:focus{
+		outline: none; 
+		text-decoration: none;
+	}
+
+	text-transform:uppercase;
+
+	&[aria-controls],
+	&[aria-live]{
+		min-width:0;
+	}
+}
+
+button:not([aria-controls]):not([aria-live]),
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"],
+.basic-button-default,
+.next-content a,
+.prev-content a,
+.pmpro_btn, 
+.pmpro_btn:link, 
+.pmpro_content_message a, 
+.pmpro_content_message a:link,
+.pmpro_checkout .pmpro_btn,
+#nav-below.navigation a,
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.wp-block-button__link {
+	color: $color__button-text;
+	background-color: $color__button-background;
+	background: linear-gradient(to left bottom, $color__button-background 50%, $color__button-background-mix 50%);
+	background: -webkit-linear-gradient(to left bottom, $color__button-background 50%, $color__button-background-mix 50%);
+	background: -moz-linear-gradient(to left bottom, $color__button-background 50%, $color__button-background-mix 50%);
+	
+	padding: 12px 20px 12px 20px;
+	position:relative;
+	z-index:0;
+	
+	&:visited{
+		color: $color__button-text;
+		background-color: $color__button-background;
+		background: linear-gradient(to left bottom, $color__button-background 50%, $color__button-background-mix 50%);
+		background: -webkit-linear-gradient(to left bottom, $color__button-background 50%, $color__button-background-mix 50%);
+		background: -moz-linear-gradient(to left bottom, $color__button-background 50%, $color__button-background-mix 50%);
+	}
+	
+
+	&:hover,
+	&:focus,
+	&.active-item{
+		color: $color__button-text-hover;
+		background-color: $color__button-background-hover-mix;
+		background: linear-gradient(to left bottom, $color__button-background-hover 50%, $color__button-background-hover-mix 50%);
+		background: -webkit-linear-gradient(to left bottom, $color__button-background-hover 50%, $color__button-background-hover-mix 50%);
+		background: -moz-linear-gradient(to left bottom, $color__button-background-hover 50%, $color__button-background-hover-mix 50%);
+		text-decoration: none; 
+	}
+}
+
+.dark-background,
+.dark-background.overlay-background{
+	button:not([aria-controls]):not([aria-live]), 
+	input[type="button"], 
+	input[type="submit"], 
+	input[type="reset"],
+	.basic-button-default,
+	.next-content a,
+	.prev-content a,
+	.pmpro_btn, 
+	.pmpro_btn:link, 
+	.pmpro_content_message a, 
+	.pmpro_content_message a:link,
+	.pmpro_checkout .pmpro_btn,
+	#nav-below.navigation a,
+	.woocommerce #respond input#submit, 
+	.woocommerce a.button, 
+	.woocommerce button.button, 
+	.woocommerce input.button,
+	&.woocommerce #respond input#submit, 
+	&.woocommerce a.button, 
+	&.woocommerce button.button, 
+	&.woocommerce input.button,
+	.wp-block-button__link{
+		&:hover,
+		&:focus{
+			color: $color__button-text-hover-dark-background;
+			background-color: $color__button-background-hover-mix-dark-background;
+			background: linear-gradient(to left bottom, $color__button-background-hover-dark-background 50%, $color__button-background-hover-mix-dark-background 50%);
+			background: -webkit-linear-gradient(to left bottom, $color__button-background-hover-dark-background 50%, $color__button-background-hover-mix-dark-background 50%);
+			background: -moz-linear-gradient(to left bottom, $color__button-background-hover-dark-background 50%, $color__button-background-hover-mix-dark-background 50%);
+		}
+	}
+}
+
+button, 
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"],
+.basic-button-default {
+	&.white-style{
+		color: $color__button-text-white;
+		background-color: $color__button-background-white;
+		background: linear-gradient(to left bottom, $color__button-background-white 50%, $color__button-background-white-mix 50%);
+		background: -webkit-linear-gradient(to left bottom, $color__button-background-white 50%, $color__button-background-white-mix 50%);
+		background: -moz-linear-gradient(to left bottom, $color__button-background-white 50%, $color__button-background-white-mix 50%);
+
+		&:visited{
+			color: $color__button-text-white;
+			background-color: $color__button-background-white;
+			background: linear-gradient(to left bottom, $color__button-background-white 50%, $color__button-background-white-mix 50%);
+			background: -webkit-linear-gradient(to left bottom, $color__button-background-white 50%, $color__button-background-white-mix 50%);
+			background: -moz-linear-gradient(to left bottom, $color__button-background-white 50%, $color__button-background-white-mix 50%);
+		}
+		
+
+		&:hover,
+		&:focus{
+			color: $color__button-text-white-hover;
+			background-color: $color__button-background-white-hover-mix;
+			background: linear-gradient(to left bottom, $color__button-background-white-hover 50%, $color__button-background-white-hover-mix 50%);
+			background: -webkit-linear-gradient(to left bottom, $color__button-background-white-hover 50%, $color__button-background-white-hover-mix 50%);
+			background: -moz-linear-gradient(to left bottom, $color__button-background-white-hover 50%, $color__button-background-white-hover-mix 50%);
+		}
+	}
+	&.black-style{
+		&:not(:hover){
+			color: $color__button-text-black;		
+			background: $color__button-background-black;			
+		}
+	}
+	&.transparent-style{
+		color:#FFFFFF;
+		background:rgba(255,255,255,0);
+		border:1px solid rgba(255,255,255,0.2);
+		border-top:none;
+		border-bottom:none;
+		&:hover,
+		&:focus{
+			color:#FFFFFF;
+			background:rgba(255,255,255,0.1);
+		}
+	}
+}
+
+body.beeteam368{
+	.mce-toolbar{	
+		.mce-btn{
+			button{
+				min-width: 0;
+				.mce-ico{
+					color:#FFFFFF;
+				}		
+			}
+			&.mce-active{
+				button{
+					.mce-ico{
+						color:#FFFFFF;
+					}
+				}
+			}
+		}
+		input:not([type]), input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, select{
+			margin-bottom: 0;
+		}
+		.mce-btn-group .mce-btn{
+			border:none;
+		}
+		.mce-btn-group .mce-btn.mce-primary button{
+			padding:2px 3px;
+		}
+
+		.mce-btn-group .mce-btn.mce-primary{
+			border:none;
+			background:none;
+			box-shadow: none;
+		}		
+	}
+	.wp-editor-container{
+		button,
+		input[type="button"]{
+			min-width: 0;
+		}
+	}
+}
+.wp-switch-editor{
+	min-width: 0;
+}

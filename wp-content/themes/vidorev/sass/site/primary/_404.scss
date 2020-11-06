@@ -1,0 +1,21 @@
+.page-404-wrapper{
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:40px;
+
+	h1 {
+		font-size:70px;
+		color: $color__404-content-text;
+		margin-bottom:38px;
+		@media(max-width:767px){
+			font-size:40px;
+		}
+	}
+
+	.img-404{
+		max-width:775px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:32px;
+	}
+}

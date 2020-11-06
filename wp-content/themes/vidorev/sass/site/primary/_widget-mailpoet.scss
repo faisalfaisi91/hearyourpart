@@ -1,0 +1,91 @@
+.widget.widget_wysija{
+	.widget_wysija_cont{
+		p{
+			padding:0;
+		}
+	}
+
+	.wysija-paragraph{
+		margin-top:22px;
+	}
+
+	.widget-title{
+		margin-bottom:24px;
+	}
+
+	.formError{
+		.formErrorContent{
+			background-color: rgba(0,0,0,0.8);
+		    font-size: 12px;
+		    border: #000000;
+		    padding: 5px 10px;
+		    margin-top: -5px;
+		    font-family:inherit;
+		    width: 160px;
+		}
+	}
+
+	.widget_wysija_cont .error, 
+	.widget_wysija_cont .xdetailed-errors{
+		padding: 5px 15px;
+		background-color:$color__main;
+		color:#FFFFFF;
+		border:none;
+		margin-bottom:20px;
+		font-family:inherit;
+		font-size:$font__main-size;
+	}	
+
+	.widget_wysija_cont .updated, 
+	.widget_wysija_cont .login .message{
+		padding: 5px 15px;
+		background-color:$color__main-sub;
+		color:#FFFFFF;
+		border:none;
+		margin-bottom:20px;
+		font-family:inherit;
+		font-size:$font__main-size;
+	}
+}
+
+.widget.widget_mailpoet_form[id*="mailpoet_form-"]{
+	p{
+		padding:0;
+	}
+	.mailpoet_paragraph{
+		line-height: 1.8 !important;
+		margin-bottom: 20px;
+	}
+	.mailpoet_text{
+		width: 100% !important;
+		margin-bottom: 0;
+	}
+	.mailpoet_submit{
+		width: 100%;
+	}
+	.parsley-errors-list{
+		margin-top: 20px;
+		font-size:12px;
+	}
+	.mailpoet_validate_success{
+		font-weight: normal !important;
+	}
+	.mailpoet_message{
+		margin-top: 0;
+		> p{
+			margin-top: 20px;
+		}
+	}
+}
+
+.dark-background{
+	.widget.widget_wysija{
+		.formError{
+			.formErrorContent{
+				background: rgba(255,255,255,1.0);			    
+			    border: #FFFFFF;
+			    color:#000000;
+			}
+		}
+	}
+}

@@ -1,0 +1,152 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h7 {
+	@include resetTag;	
+	font-family: $font__heading;
+	font-size: $font__heading-size;
+	font-weight: $font__heading-weight;
+	line-height: $font__heading-line-height;	
+	letter-spacing: $font__heading-letter-spacing;	
+	text-transform: $font__heading-text-transform;
+	text-decoration: $font__heading-text-decoration;
+	font-style: $font__heading-style;
+
+	color: $color__text_heading;
+
+	word-break: break-word;
+
+	a {
+		text-decoration:none;
+		&:focus,
+		&:hover{			
+			text-decoration:none;
+		}
+	}
+
+	&.extra-bold{
+		font-weight: $font__weight-extra;
+	}
+}
+
+h1,
+.h1 { 
+	font-size: $h1_font_size;
+}
+h2,
+.h2 { 
+	font-size: $h2_font_size;
+}
+h3,
+.h3 {
+	font-size: $h3_font_size;
+}
+h4,
+.h4 {
+	font-size: $h4_font_size;
+}
+h5,
+.h5 {
+	font-size: $h5_font_size;
+}
+h6,
+.h6 {
+	font-size: $h6_font_size;
+}
+
+.h7 {
+	font-size: $h7_font_size;
+}
+
+.h-font-size-30{	
+	font-size:$h_font_size_30;	
+}
+
+.h-font-size-36{	
+	font-size:$h_font_size_36;	
+}
+
+.h-font-size-40{	
+	@media(min-width:768px){
+		font-size:$h_font_size_40;
+	}
+}
+
+.h-font-size-48{	
+	font-size:$h_font_size_48;	
+}
+
+.h1-small-desktop{
+	@media(max-width:1199px){
+		font-size: $h1_font_size;
+	}
+}
+
+.h1-tablet{
+	@media(max-width:767px){
+		font-size: $h1_font_size;
+	}
+}
+
+.h2-tablet{
+	@media(max-width:767px){
+		font-size: $h2_font_size;
+	}
+}
+
+.h3-small-desktop{
+	@media(max-width:1199px){
+		font-size: $h3_font_size;
+	}
+}
+
+.h3-mobile{
+	@media(max-width:575px){
+		font-size: $h3_font_size;
+	}
+}
+
+.h5-mobile{
+	@media(max-width:575px){
+		font-size: $h5_font_size;
+	}
+}
+
+.h5-small-desktop{
+	@media(max-width:1450px){
+		font-size: $h5_font_size;
+	}
+}
+
+.h6-mobile{
+	@media(max-width:575px){
+		font-size: $h6_font_size;
+	}
+}
+
+.dark-background{
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6,
+	.h7 {
+		color: $color__text_heading-dark-background;
+	}	
+}

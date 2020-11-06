@@ -1,0 +1,8 @@
+p {
+	margin: 0; 
+	padding-top: 8px; 
+	padding-bottom: 7px;
+	&:empty{
+		display:none;
+	}
+}

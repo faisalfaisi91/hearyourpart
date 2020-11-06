@@ -1,0 +1,297 @@
+@media(max-width:991px){
+	.top-search-box{
+		display:none;
+	}
+}
+.top-search-box .top-search-box-wrapper{
+	width:160px;
+	min-height: $navigation_height;
+	position:relative;
+	.search-terms-textfield{
+		margin:0;
+		border:0;
+		background-color: $color__navigation-background-hover;
+		color: $color__topsearchbox-text-input;
+		display:block;
+		position:absolute;
+		top:0;
+		left:auto;
+		right:0;
+		bottom:0;
+		padding-right:55px;
+		max-width:none;
+		width:100%;
+		height:100%;
+
+		&:focus,
+		&:hover {
+			color:$color__topsearchbox-text-input-focus;
+			width:200%;
+		}
+
+		&::-moz-placeholder{
+			color: $color__topsearchbox-text-input;		
+		} 
+		&:-ms-input-placeholder{
+			color: $color__topsearchbox-text-input;			
+		} 
+		&::-webkit-input-placeholder{
+			color: $color__topsearchbox-text-input;
+		} 
+
+		&:focus::-moz-placeholder{
+			color: $color__topsearchbox-text-input-focus;
+		} 
+		&:focus:-ms-input-placeholder{
+			color: $color__topsearchbox-text-input-focus;
+		} 
+		&:focus::-webkit-input-placeholder{
+			color: $color__topsearchbox-text-input-focus;
+		} 
+
+		&:-webkit-autofill,
+		&:-webkit-autofill:hover,
+		&:-webkit-autofill:focus,
+		&:focus:-webkit-autofill {
+			background-color: $color__navigation-background-hover !important; 
+			-webkit-box-shadow:0 0 0 50px $color__navigation-background-hover inset;
+			-webkit-text-fill-color: $color__topsearchbox-text-input-focus;
+		}
+	}
+
+	input[type="submit"]{
+		background:transparent;
+		border:none;
+		font-size:0;
+		min-width:0;
+		display:block;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		width:55px;
+	}
+
+	.fa-search{
+		position:absolute;
+		color:$color__topsearchbox-text-input;
+		top:50%;
+		right:20px;
+		pointer-events:none;
+		@include prefixer(transform, translateY(-50%), spec webkit ms);	
+	}
+}
+
+.header-sport {
+	@media(min-width:992px){	
+		.top-search-box{
+			padding-right:0;
+		
+			.top-search-box-wrapper{
+				width:200px;
+				.search-terms-textfield{
+					color: $color__header-sport-topsearchbox-text-input;
+					background-color: $color__header-sport-navigation-background-hover;				
+
+					&:focus,
+					&:hover {
+						color:$color__header-sport-topsearchbox-text-input-focus;
+						width:160%;
+					}
+
+					&::-moz-placeholder{
+						color: $color__header-sport-topsearchbox-text-input;		
+					} 
+					&:-ms-input-placeholder{
+						color: $color__header-sport-topsearchbox-text-input;			
+					} 
+					&::-webkit-input-placeholder{
+						color: $color__header-sport-topsearchbox-text-input;
+					} 
+
+					&:focus::-moz-placeholder{
+						color: $color__header-sport-topsearchbox-text-input-focus;
+					} 
+					&:focus:-ms-input-placeholder{
+						color: $color__header-sport-topsearchbox-text-input-focus;
+					} 
+					&:focus::-webkit-input-placeholder{
+						color: $color__header-sport-topsearchbox-text-input-focus;
+					} 
+
+					&:-webkit-autofill,
+					&:focus:-webkit-autofill{
+						background-color: $color__header-sport-navigation-background-hover !important; 
+						-webkit-box-shadow:0 0 0 50px $color__header-sport-navigation-background-hover inset;
+						-webkit-text-fill-color: $color__header-sport-topsearchbox-text-input-focus;
+					}
+				}
+				.fa-search{
+					color: $color__header-sport-topsearchbox-text-input;
+				}
+			}
+		}	
+	}	
+}
+
+.header-side .top-search-box{
+	.wpdreams_asl_container{
+		margin-top: 9px;
+		.probox{
+			min-height: 42px;
+			.proinput{
+				font-size: 14px;
+				margin: 0;
+				padding:0;
+				input{
+					height: auto !important;
+					font-size: 14px !important;
+				    font-weight: normal !important;
+				    line-height: 1.8 !important;
+				    padding: 11px 20px 10px 20px !important;
+				    &.autocomplete{
+				    	margin-top: -42px !important;
+				    }
+				}
+			}
+			.proclose, .promagnifier, .prosettings{
+				width: 42px;
+				height: 42px;
+			}
+			.proloading{
+				width: 30px;
+				height: 30px;
+				margin-top: 6px;
+			}
+
+			.innericon svg{
+				width: 18px;
+			}
+
+		}
+	}
+}
+
+body.header-vid-side{ 
+	
+	div.asl_s.searchsettings{
+		margin-top:2px;
+		@include border-radius(0);
+		background: rgba(0, 0, 0, 0.9);
+		.asl_option_inner{
+			margin:0 15px;
+		}
+		.asl_option_label{
+			font-size: 12px;
+			font-weight: normal;		
+		}
+		.asl_option_label{
+			line-height: 1.8 !important;
+		}
+	}
+
+	div.asl_r{
+		background-color: rgba(0,0,0,0.9);
+		padding:0;
+		margin-top: -20px;
+		.results{
+			margin-right:0;
+			.asl_spacer{
+				height:1px;
+				background: rgba(255,255,255,0.15);
+   				margin: 0;
+   				&:last-child{
+   					display: none;
+   				}
+			}			
+			.item{
+				padding:15px;
+				@include border-radius(0);
+				background: transparent;
+				border:none;
+				&.hovered{
+					background:#252525;
+				}
+				.asl_content{
+					padding:0;
+					font-size: 14px;
+					line-height: 1.8;
+					overflow: visible;
+					h3,
+					h3 a{
+						font-size: 14px;
+						font-weight: 500;
+						line-height: 1.35;
+						text-shadow: none;
+					    font-weight: 500;
+					    color: #FFFFFF;
+					}
+				}
+				.asl_image{
+					margin:0 15px 0 0;
+				}
+				.asl_desc{
+					font-size: 14px;
+					color:#C4C4C4;
+					line-height: 1.8;
+					margin-bottom: -7px;
+				}
+				div.etc{
+					line-height: 1.8;
+					.asl_author{
+						font-weight: 500;
+						text-transform: uppercase;
+					}
+					.asl_author,
+					.asl_date{
+						font-size: 12px;
+						line-height: 1.8;
+					}
+				}
+
+				span.highlighted{
+					padding-left:5px;
+					padding-right:5px;
+					font-weight: 500;
+					color:$color__main;
+				}		
+			}
+			
+			/*&.mCS_no_scrollbar .mCustomScrollBox{
+				max-height: none !important;
+			}*/
+		}
+
+		p.showmore{
+			margin-top: 15px;
+			a{
+				font-size: 14px;
+				line-height: 40px;
+				color:#FFFFFF;
+				font-weight: 500;
+				margin-top: 15px;
+				text-transform: uppercase;
+				background-color: #333333;
+			}
+		} 
+
+		.mCustomScrollBox .mCSBap_scrollTools{
+			width: 4px;
+		} 
+		.mCSBap_scrollTools a+.mCSBap_draggerContainer{
+			margin:0;
+		}
+		.mCSBap_inside>.mCSBap_container{
+			margin:0;
+		}
+		.mCSBap_buttonUp,
+		.mCSBap_buttonDown{
+			display: none !important;
+		}
+		.mCSBap_scrollTools .mCSBap_dragger .mCSBap_dragger_bar{
+			@include border-radius(0);
+			width: 4px;
+			background-color: $color__main;
+		}
+	}
+}

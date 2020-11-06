@@ -1,0 +1,138 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// prefix
+@mixin prefixer($property, $value, $prefixes:null){	
+	@if $prefixes == null {
+		$prefixes: spec webkit moz ms o;
+	}
+	@each $prefix in $prefixes {
+		@if $prefix == webkit {
+			-webkit-#{$property}: #{$value};
+		}@else if $prefix == moz {
+			-moz-#{$property}: #{$value};
+		}@else if $prefix == ms {
+			-ms-#{$property}: #{$value};
+		}@else if $prefix == o {
+			-o-#{$property}: #{$value};
+		}@else if $prefix == spec {
+			#{$property}: #{$value};
+		}@else  {
+			@warn "Unrecognized prefix: #{$prefix}";
+		}
+	}
+}
+
+// border radius
+@mixin border-radius($top-left:null, $top-right:null, $bottom-left:null, $bottom-right:null){
+	@if $top-left!=null and $top-right==null and $bottom-left==null and $bottom-right==null{
+		@include prefixer(border-radius, $top-left, spec webkit);
+	}@else{
+		@if $top-left!=null {
+			@include prefixer(border-top-left-radius, $top-left, spec webkit);
+		}
+		@if $top-right!=null {
+			@include prefixer(border-top-right-radius, $top-right, spec webkit);
+		}
+		@if $bottom-left!=null {
+			@include prefixer(border-bottom-left-radius, $bottom-left, spec webkit);
+		}
+		@if $bottom-right!=null {
+			@include prefixer(border-bottom-right-radius, $bottom-right, spec webkit);
+		}
+	}	
+}
+
+// transition builder
+@mixin transiton-builder($transitionValue...){
+	@include prefixer(transition, $transitionValue, spec webkit);
+}
+
+// reset Tag
+@mixin resetTag{
+	margin:0; 
+	padding:0;
+	background:none;
+	border:none;	
+	@include border-radius(0px);
+	outline:none;
+}
+
+@mixin flexRowControl{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	  -ms-flex-wrap: wrap;
+	      flex-wrap: wrap;
+}
+
+@mixin flexVerticalAlignMiddle{
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	
+	-webkit-flex-flow:row wrap;
+		flex-flow:row wrap;
+	
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	//-ms-flex-pack: center;
+	//-webkit-justify-content: center;
+	//justify-content: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+
+	-webkit-align-items: center;	
+	align-items:center;
+
+	align-content:center;
+}
+
+@mixin flexVerticalAlignTop{
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	display:flex;
+	
+	-webkit-flex-flow:row wrap;
+		flex-flow:row wrap;	
+	
+	-webkit-align-items: flex-start;	
+	align-items: flex-start;
+}
+
+@mixin flexRowCenter{
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}

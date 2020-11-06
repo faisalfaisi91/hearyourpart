@@ -1,0 +1,55 @@
+$font__main: 'Poppins', sans-serif;
+$font__main-size: 14px;
+$font__main-weight: normal;
+$font__main-line-height: 1.8;
+$font__main-letter-spacing: 0;
+$font__main-text-transform: none;
+$font__main-text-decoration: none;
+$font__main-style: normal;
+
+$font_size_10: round($font__main-size * 0.7);
+$font_size_12: round($font__main-size * 0.86);
+$font_size_18: round($font__main-size * 1.286);
+
+$font__weight-extra: 700;
+
+$font__heading: 'Poppins', sans-serif;
+$font__heading-size: 16px;
+$font__heading-weight: 500;
+$font__heading-line-height: 1.35;
+$font__heading-letter-spacing: 0;
+$font__heading-text-transform: none;
+$font__heading-text-decoration: none;
+$font__heading-style: normal;
+
+$h1_font_size: round(16px * 1.602);
+$h2_font_size: round(16px * 1.424);
+$h3_font_size: round(16px * 1.266);
+$h4_font_size: round(16px * 1.125);
+$h5_font_size: round(16px * 1);
+$h6_font_size: round(16px * 0.889);
+$h7_font_size: round(16px * 0.75);
+$h_font_size_40 : round(16px * 2.5);
+$h_font_size_30 : round(16px * 1.9);
+$h_font_size_36 : round(16px * 2.25);
+$h_font_size_48 : round(16px * 3);
+
+$font__navigation: 'Poppins', sans-serif;
+$font__navigation-size: 14px;
+$font__navigation-weight: 500;
+$font__navigation-letter-spacing: 0;
+$font__navigation-text-transform: none;
+$font__navigation-text-decoration: none;
+$font__navigation-style: normal;
+
+$font_navigation_size_12: round($font__navigation-size * 0.86);
+
+$font__meta: 'Poppins', sans-serif;
+$font__meta-size: 12px;
+$font__meta-weight: normal;
+$font__meta-letter-spacing: 0;
+$font__meta-text-transform: none;
+$font__meta-text-decoration: none;
+$font__meta-style: normal;
+
+$font__meta-size-10: round($font__meta-size * 0.83);;

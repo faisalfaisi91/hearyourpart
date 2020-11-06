@@ -1,0 +1,85 @@
+a{	
+	color:$color__link;
+	text-decoration:underline;		
+	@include transiton-builder(color 0.3s, background-color 0.3s, border-color 0.3s);
+	&:hover,
+	&:active,
+	&:focus,
+	&:visited{
+		outline:0;
+	}
+
+	&:focus{
+		color:$color__link-hover;
+		text-decoration:underline;
+	}
+	&:hover{
+		color:$color__link-hover;
+		text-decoration:underline;
+	}
+	&.neutral{
+		color:$color__link-neutral;
+		&:focus{
+			color:$color__link-neutral-hover;
+		}
+		&:hover{
+			color:$color__link-neutral-hover;
+		}
+	}
+
+	&.main-color-udr{
+		color:$color__main;
+		
+		&:hover{
+			text-decoration:underline;
+		}
+	}
+}
+
+.dark-background{	
+	a{
+		color:$color__link-dark-background;
+		&:focus{
+			color:$color__link-hover-dark-background;
+		}
+		&:hover{
+			color:$color__link-hover-dark-background;
+		}
+
+		&.neutral{
+			color:$color__link-neutral-dark-background;
+			&:focus{
+				color:$color__link-neutral-hover-dark-background;
+			}
+			&:hover{
+				color:$color__link-neutral-hover-dark-background;
+			}
+		}
+	}
+
+	&.overlay-background{
+		a{
+			color:$color__link-dark-background;
+			&:focus{
+				color:$color__link-dark-background;
+			}
+			&:hover{
+				color:$color__link-dark-background;
+			}			
+		}
+	}
+}
+
+.dinginess-background{
+	a{
+		&.neutral{
+			color:#FFFFFF;
+			&:focus{
+				color:rgba(255,255,255,0.68);
+			}
+			&:hover{
+				color:rgba(255,255,255,0.68);
+			}
+		}
+	}
+}

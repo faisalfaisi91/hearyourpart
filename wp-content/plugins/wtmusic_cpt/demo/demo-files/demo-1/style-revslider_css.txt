@@ -1,0 +1,35 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : 192.168.1.100
+Source Server Version : 50153
+Source Host           : 192.168.1.100:3306
+Source Database       : swenson-light
+
+Target Server Type    : MYSQL
+Target Server Version : 50153
+File Encoding         : 65001
+
+Date: 2015-01-03 00:25:51
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for wp_revslider_css
+-- ----------------------------
+DROP TABLE IF EXISTS `wp_revslider_css`;
+CREATE TABLE `wp_revslider_css` (
+  `id` int(9) NOT NULL AUTO_INCREMENT,
+  `handle` text NOT NULL,
+  `settings` text,
+  `hover` text,
+  `params` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=176 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of wp_revslider_css
+-- ----------------------------
+INSERT INTO `wp_revslider_css` VALUES ('1', '.tp-caption a', null, null, '{\"color\":\"#ff7302\",\"text-shadow\":\"none\"}');
+INSERT INTO `wp_revslider_css` VALUES ('2', '.tp-caption a:hover', null, null, '{\"color\":\"#ffa902\"}');

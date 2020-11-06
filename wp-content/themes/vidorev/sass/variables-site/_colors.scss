@@ -1,0 +1,440 @@
+$color__main: #CC0000;
+$color__main-sub: #1ABC9C;
+
+$color__text-main: #111111;
+$color__text_heading: #000000;
+
+$color__text-main-dark-background: #C4C4C4;
+$color__text_heading-dark-background: #FFFFFF;
+
+$color__link: #000000;
+$color__link-hover: $color__main;
+
+$color__link-neutral: #999999;
+$color__link-neutral-hover: #000000;
+
+$color__link-dark-background: #FFFFFF;
+$color__link-hover-dark-background: $color__main;
+
+$color__link-neutral-dark-background: rgba(255,255,255,0.8);
+$color__link-neutral-hover-dark-background: #FFFFFF;
+
+$color__background-pre: #EEEEEE;
+
+$color__text-input: #999999;
+$color__border-input: #E5E5E5;
+$color__background-input: #FFFFFF;
+
+$color__text-input-focus: #000000;
+$color__border-input-focus: #999999;
+
+$color__text-input-dark-background: #999999;
+$color__border-input-dark-background: rgba(255,255,255,0.1);
+$color__background-input-dark-background: transparent;
+
+$color__text-input-focus-dark-background: #FFFFFF;
+$color__border-input-focus-dark-background: rgba(255,255,255,0.3);
+
+$color__button-text: #FFFFFF;
+$color__button-background: $color__main;
+$color__button-background-mix: mix( black, $color__button-background, 10% );
+
+$color__button-text-hover: #FFFFFF;
+$color__button-background-hover: #1F1F1F;
+$color__button-background-hover-mix: mix( black, $color__button-background-hover, 100% );
+
+$color__button-text-hover-dark-background: #000000;
+$color__button-background-hover-dark-background: #FFFFFF;
+$color__button-background-hover-mix-dark-background: mix( black, $color__button-background-hover-dark-background, 10% );
+
+$color__button-text-white: #000000;
+$color__button-background-white: #FFFFFF;
+$color__button-background-white-mix: mix( black, $color__button-background-white, 10% );
+
+$color__button-text-white-hover: $color__main;
+$color__button-background-white-hover: #FFFFFF;
+$color__button-background-white-hover-mix: mix( black, $color__button-background-white-hover, 10% );
+
+$color__button-text-black: #000000;
+$color__button-background-black: #E5E5E5;
+
+$color__background-ins: #FFF9C0;
+
+$color__text-screen: #21759B;
+$color__background-screen: #F1F1F1;
+
+$color__navigation-background: $color__main;
+$color__navigation-box-shadow: rgba(0,0,0,0.35);
+
+$color__text-navigation: #FFFFFF;
+$color__text-navigation-hover: #FFFFFF;
+$color__navigation-background-hover: mix( black, $color__navigation-background, 10% );
+
+$color__text-navigation-active: #FFFFFF;
+$color__navigation-background-active: mix( black, $color__navigation-background, 10% );
+
+$color__header-sport-navigation-background: #FFFFFF;
+$color__header-sport-text-navigation: #000000;
+$color__header-sport-text-navigation-hover: #000000;
+$color__header-sport-navigation-background-hover: mix( black, $color__header-sport-navigation-background, 10% );
+
+$color__header-sport-text-navigation-active: #000000;
+$color__header-sport-navigation-background-active: mix( black, $color__header-sport-navigation-background, 10% );
+
+
+$color__navigation-sublevel-text: #FFFFFF;
+$color__navigation-sublevel-text-hover: #FFFFFF;
+
+$color__navigation-sublevel-background: rgba(0,0,0,0.9);
+$color__navigation-sublevel-background-hover: $color__main;
+
+$color__navigation-sublevel-text-active: #FFFFFF;
+$color__navigation-sublevel-background-active: $color__main;
+
+$color__navigation-sublevel-border: rgba(255,255,255,0.1);
+
+$color__btn_open_mobile_main_menu_border: rgba(255,255,255,0.4);
+$color__btn_open_mobile_main_menu: rgba(255,255,255,1.0);
+
+$color__topcontent_background: #111111;
+
+$color__top_nav_background: #000000;
+$color__top_nav_post: rgba(255,255,255,0.5);
+$color__header-sport-top_nav_post_hover: transparent;
+
+
+$color__sb_df_bg: rgba(96,96,96,1.0);
+$color__sb_df_hover_bg: rgba(34,34,34,1.0);
+$color__sb_df_color: rgba(255,255,255,1.0);
+
+$color__sb_df_hover_bg-dark-background:#FFFFFF;
+$color__sb_df_color-dark-background: #000000;
+
+$color__sb_df_grey_bg: rgba(153,153,153,1.0);
+$color__sb_df_transparent_bg: rgba(255,255,255,0.15);
+
+$color__sb_light_bg: transparent;
+$color__sb_light_hover_bg: #999999;
+
+$color__sb_light_border: #EAEAEA;
+
+$color__sb_light_color: #999999;
+$color__sb_light_color_hover: #FFFFFF;
+
+$color__sb_light_border-dark-background: #999999;
+
+$color__sb_light_color-hover-dark-background: #000000;
+$color__sb_light_hover_bg-dark-background: #FFFFFF;
+$color__sb_light_border_hover-dark-background: #FFFFFF;
+$color__sb_light_color_hover-specicon-dark-background: #FFFFFF;
+
+
+$color__sb_facbook_bg: rgba(58,87,149,1.0);
+$color__sb_twitter_bg: rgba(85,172,238,1.0);
+$color__sb_googleplus_bg: rgba(221,75,57,1.0);
+$color__sb_linkedin_bg: rgba(0,123,182,1.0);
+$color__sb_tumblr_bg: rgba(55,70,93,1.0);
+$color__sb_pinterest_bg: rgba(203,33,29,1.0);
+$color__sb_vk_bg: rgba(43,88,122,1.0);
+$color__sb_youtube_bg: rgba(230,33,23,1.0);
+$color__sb_instagram_bg: rgba(63,114,155,1.0);
+
+$color__sb_nav-style: rgba(255,255,255,0.66);
+$color__sb_nav-style_background: transparent;
+$color__sb_nav-style_border: rgba(255,255,255,0.2);
+
+$color__sb_nav-style-default-hover: rgba(255,255,255,1.0);
+$color__sb_nav-style_border-default: rgba(255,255,255,0.2);
+$color__sb_nav-style_background-default-hover: rgba(255,255,255,0.1);
+$color__sb_nav-style_border-default-hover: rgba(255,255,255,0.1);
+
+$color__sb_nav-style-hover: #FFFFFF;
+
+$color__nav-breadcrumbs-border: #EAEAEA;
+$color__nav-breadcrumbs-border-dark-background: rgba(255,255,255,0.1);
+$color__nav-breadcrumbs-text-dark-background: rgba(255,255,255,0.68);
+$color__nav-breadcrumbs-text-hover-dark-background: #FFFFFF;
+
+
+$color__hasvideo-watch-later-icon-1: rgba(255,255,255,1.0);
+$color__hasvideo-watch-later-icon-2: rgba(255,255,255,0.3);
+
+$color__topsearchbox-text-input: #FFFFFF;
+
+$color__topsearchbox-text-input-focus: #FFFFFF;
+
+$color__header-sport-background: #111111;
+$color__header-sport-topsearchbox-text-input: #999999;
+
+$color__header-sport-topsearchbox-text-input-focus: #999999;
+
+$color__topsearchdropdown_background: #000000;
+$color__topsearchdropdown_border: rgba(255,255,255,0.2);
+
+$color__widget_border_bg: #E5E5E5;
+$color__widget_text_sp: #1F1F1F;
+
+$color__widget_border_bg_dark-background: rgba(255,255,255,0.1);
+$color__widget_text_sp_dark-background: #FFFFFF;
+
+$color__widget-arrow: #999999;
+$color__widget-arrow-background: rgba(0,0,0,0.1);
+$color__widget-arrow-hover: #FFFFFF;
+$color__widget-arrow-background-hover: #111111;
+
+$color__widget-arrow-dark-background: #999999;
+$color__widget-arrow-background-dark-background: rgba(255,255,255,0.1);
+$color__widget-arrow-hover-dark-background: #111111;
+$color__widget-arrow-background-hover-dark-background: #FFFFFF;
+
+
+$color__w-tag-text: #000000;
+$color__w-tag-background: #E5E5E5;
+
+$color__w-tag-text-hover: #FFFFFF;
+$color__w-tag-background-hover: #1F1F1F;
+$color__w-tag-background-hover-mix: mix( black, $color__w-tag-background-hover, 100% );
+
+$color__footer-bg: #111111;
+$color__footer-bg-dark-background: #000000;
+$color__footer-copy: #000000;
+$color__footer-copy-dark-background: #111111;
+
+$color__meta: #888888;
+$color__meta-hover: #000000;
+$color__meta-dark-background: #AEAEAE;
+$color__meta-hover-dark-background: #FFFFFF;
+
+$color__meta-overlay-background: rgba(255,255,255,0.9);
+$color__meta-hover-overlay-background: #FFFFFF;
+
+$color__switch-icon: #999999;
+$color__switch-icon-background: #EAEAEA;
+$color__switch-icon-hover: #FFFFFF;
+$color__switch-icon-background-hover: #111111;
+
+$color__switch-icon-dark-background: #999999;
+$color__switch-icon-background-dark-background: rgba(255,255,255,0.1);
+$color__switch-icon-hover-dark-background: #000000;
+$color__switch-icon-background-hover-dark-background: #FFFFFF;
+
+$color__video-icon: rgba(255,255,255,0.5);
+$color__video-icon-background: rgba(0,0,0,0.5);
+
+$color__video-icon-active: rgba(255,255,255,1.0);
+$color__video-icon-active-background: $color__main;
+
+$color__video-icon-hover: #FFFFFF;
+$color__video-icon-background-hover: $color__main;
+
+$color__watch-later: #FFFFFF;
+$color__watch-later-background: #111111;
+$color__watch-later-hover: #FFFFFF;
+$color__watch-later-background-hover: $color__main;
+
+$color__duration: #FFFFFF;
+$color__duration-background: rgba(0,0,0,0.8);
+
+$color__placeholder-lazysizes: rgba(200,200,200,1.0);
+$color__placeholder-lazysizes-dark-background: rgba(255,255,255,0.1);
+
+$color__img-hover-overlay: rgba(0,0,0,0);
+$color__img-hover-overlay-mix: rgba(0,0,0,0.1);
+
+$color__listing-special-background: #FFFFFF;
+$color__listing-shadow: rgba(0,0,0,0.15);
+
+@mixin gradientOverlay {
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+}
+
+$color__wp-navi-border: rgba(0,0,0,0.2);
+$color__wp-navi-border-hover: rgba(0,0,0,0);
+
+$color__wp-navi-border-dark-background: rgba(255,255,255,0.1);
+
+$color__indicator-background: rgba(255,255,255,0.3);
+$color__indicator-animate: #FFFFFF;
+
+$color__indicator-background-dark-background: rgba(0,0,0,0.3);
+$color__indicator-animate-dark-background: #000000;
+
+$color__entry-header-border: rgba(0,0,0,0.1);
+$color__entry-header-border-dark-background: rgba(255,255,255,0.1);
+$color__single-post-full-width-background : #111111;
+
+$color__slick-dot: #999999;
+$color__slick-dot-hover: $color__main;
+
+$color__blockquote: #999999;
+$color__blockquote-background: #000000;
+$color__blockquote-border: $color__main;
+$color__blockquote-a: #FFFFFF;
+$color__blockquote-a-background: rgba(255,255,255,0.2);
+
+$color__video-full-width-background: #000000;
+$color__toolbar-background: #000000;
+$color__toolbar-background-full-width-style: rgba(255,255,255,0.1);
+$color__toolbar-item-border: rgba(255,255,255,0.15);
+$color__toolbar-item-border-full-width-style: rgba(255,255,255,0.1);
+
+$color__toolbar-item-text-hover: $color__main;
+$color__toolbar-item-text-active: $color__main;
+
+$color__auto-next-background: rgba(255,255,255,0.3);
+$color__auto-next-circle-background: rgba(255,255,255,0.5);
+
+$color__auto-next-background-active: $color__main;
+$color__auto-next-circle-background-active: #FFFFFF;
+
+$color__auto-next-background-big: #999999;
+$color__auto-next-circle-background-big: #BEBEBE;
+$color__auto-next-shadow-big: rgba(0,0,0,0.6);
+
+$color__auto-next-background-active-big: $color__main;
+$color__auto-next-circle-background-active-big: #FFFFFF;
+
+$color__light-off-background: rgba(0,0,0,0.85);
+
+$color__video-loading: $color__main;
+$color__video-loading-background: rgba(0,0,0,0.1);
+
+$color__video-loading-full-width-style: $color__main;
+$color__video-loading-background-full-width-style: rgba(255,255,255,0.1);
+
+$color__video-player-background: rgba(0,0,0,0.05);
+$color__video-player-background-full-width-style: rgba(255,255,255,0.05);
+
+$color__close-btn: #FFFFFF;
+
+$color__lightbox-background: #000000;
+
+$color__lightbox-toolbar-text: #999999;
+$color__lightbox-toolbar-text-hover: #FFFFFF;
+$color__lightbox-toolbar-text-active: #FFFFFF;
+$color__lightbox-toolbar-line-active: $color__main;
+
+$color__lightbox-nav-background: rgba(255,255,255,0.2);
+$color__lightbox-nav-shadow-1: rgba(0, 0, 0, 0.14);
+$color__lightbox-nav-shadow-2: rgba(0, 0, 0, 0.12);
+$color__lightbox-nav-shadow-3: rgba(0, 0, 0, 0.2);
+$color__lightbox-nav-border: rgba(255,255,255,0.1);
+
+$color__lightbox-content-background: rgba(255,255,255,0.1);
+$color__lightbox-scroll-background: rgba(255,255,255,0.3);
+
+$color__404-content-text: #EAEAEA;
+
+$color__search-form-page-border: #EAEAEA;
+$color__search-form-page-border-dark-background: rgba(255,255,255,0.1);
+$color__search-form-page-button: #999999;
+
+$color__comment-border: #EAEAEA;
+
+$color__playlist-scroll: rgba(255,255,255,0.3);
+$color__playlist-scroll-background: rgba(255,255,255,0.1);
+$color__playlist-post-title: rgba(255,255,255,0.8);
+$color__playlist-post-meta: rgba(255,255,255,0.6);
+$color__playlist-post-title-active: #FFFFFF;
+$color__playlist-post-meta-active: rgba(255,255,255,0.9);
+
+$color__top-watch-background: #000000;
+$color__top-watch-border: rgba(255,255,255,0.2);
+$color__top-watch-item-border: rgba(255,255,255,0.15);
+$color__top-watch-remove-item-hover: $color__main;
+
+$color__header-movie-with-video-full-width-border:rgba(255,255,255,0.2);
+$color__widget-post-item-border: rgba(0,0,0,0.1);
+$color__widget-post-item-border-dark-background: rgba(255,255,255,0.1);
+$color__widget-post-item-number: #FFFFFF;
+
+$color__toolbar-item-tooltip: #111111;
+$color__toolbar-item-tooltip-background: rgba(255,255,255,0.8);
+
+$color__toolbar-item-alert: #FFFFFF;
+$color__toolbar-item-alert-background: $color__main-sub;
+
+$color__toolbar-active-item-sub: $color__main-sub;
+
+$color__post-footer-border: rgba(0,0,0,0.1);
+$color__post-footer-border-dark-background: rgba(255,255,255,0.1);
+
+$color__post-footer-tag: #1F1F1F;
+$color__post-footer-tag-hover: #FFFFFF;
+$color__post-footer-tag-background: #E5E5E5;
+$color__post-footer-tag-background-hover: #1F1F1F;
+$color__related-posts-background: #F2F2F2;
+
+$color__post-footer-tag-dark-background: #C4C4C4;
+$color__post-footer-tag-hover-dark-background: #000000;
+$color__post-footer-tag-background-dark-background: rgba(255,255,255,0.1);
+$color__post-footer-tag-background-hover-dark-background: #FFFFFF;
+
+$color__author-page-border: #E5E5E5;
+$color__author-page-border-dark-background: rgba(255,255,255,0.1);
+$color__border-box-layout: rgba(0,0,0,0.1);
+
+$color__category-text: #FFFFFF;
+$color__category-background: $color__main;
+$color__category-text-dark-background: #FFFFFF;
+$color__category-background-dark-background: rgba(255,255,255,0.1);
+
+$color__suggested-post-border: rgba(255,255,255,0.1);
+
+$color__loader-bar-1: #555555;
+$color__loader-bar-2: rgba(255,255,255,0);
+
+$color__toolbar-bottom-like-button-background: #E5E5E5;
+$color__toolbar-bottom-item-tooltip: #FFFFFF;
+$color__toolbar-bottom-item-tooltip-background: rgba(0,0,0,0.8);
+
+$color__toolbar-bottom-like-button-color-dark-background: #C4C4C4;
+$color__toolbar-bottom-like-button-color-hover-dark-background: #FFFFFF;
+$color__toolbar-bottom-like-button-background-dark-background: rgba(255,255,255,0.1);
+$color__toolbar-bottom-item-tooltip-dark-background: #000000;
+$color__toolbar-bottom-item-tooltip-background-dark-background: #FFFFFF;
+
+$color__sorting-block-border: #EAEAEA;
+$color__sorting-block-background: #FFFFFF;
+$color__sorting-block-active: #999999;
+
+$color__sorting-block-border-dark-background: rgba(255,255,255,0.1);
+$color__sorting-block-background-dark-background: #252525;
+
+$color__instagram-feed-btn: #000000;
+$color__instagram-feed-btn-background: rgba(255,255,255,0.8);
+$color__imdb-background-dark-background: rgba(255,255,255,0.15);
+
+$color__main-sidebar-box-background: #F2F2F2;
+$color__main-sidebar-box-background-dark-background: rgba(255,255,255,0.05);
+$color__site-background-box: #FFFFFF;
+$color__site-background-box-dark-background: #191919;
+
+$color__site-shadown-box: rgba(0,0,0,0.3);
+$color__header-post-movie-background: #111111;
+$color__header-post-movie-img-border: #FFFFFF;
+$color__list-special-background-dark-background: #252525;
+$color__grid-special-background-dark-background: #252525;
+
+$color__aplabet-filter-border:rgba(0,0,0,0.1);
+$color__aplabet-filter-text-hover:#FFFFFF;
+$color__aplabet-filter-background-hover:#000000;
+$color__aplabet-filter-border-hover:#000000;
+$color__aplabet-filter-text-active:#FFFFFF;
+
+$color__aplabet-filter-border-dark-background:rgba(255,255,255,0.1);
+$color__aplabet-filter-text-hover-dark-background:#000000;
+$color__aplabet-filter-background-hover-dark-background:#FFFFFF;
+$color__aplabet-filter-border-hover-dark-background:#FFFFFF;
+$color__aplabet-filter-text-active-dark-background:#FFFFFF;
+
+$color__dark-version-background: #111111;
+
+$color__popular-border: #E5E5E5;
+$color__popular-background: #FFFFFF;
+
+$color__popular-border-dark-background: rgba(255,255,255,0.1);
+$color__popular-background-dark-background: #111111;

@@ -1,0 +1,65 @@
+.nav-logo-img{
+	@include flexVerticalAlignMiddle;
+	min-height:$navigation_height;
+	img {
+		display:block;
+		max-height:30px;
+		max-width:30vw;
+	}
+	.sticky-logo{
+		display:none;
+	}
+
+	@media(max-width:991px){
+		.main-logo{
+			display:none;
+		}
+	}
+
+	@media(min-width:992px){		
+		.main-logo-mobile{
+			display:none;
+		}
+	}	
+}
+
+.header-default,
+.header-classic,
+.header-sport,
+.header-blog {
+	.main-nav{
+		.nav-logo{			
+			@media(min-width:992px){
+				display:none;
+			}
+		}
+	}
+	
+}
+
+.header-tech,
+.header-movie{
+	.nav-logo-img{
+		@media(min-width:992px){
+			min-height:$navigation_extra_height;
+		}
+	}
+}
+
+@media(max-width:991px){
+	.main-nav{		
+		.nav-logo {
+			position:absolute;
+			top:0;
+			left:50%;
+			@include prefixer(transform, translateX(-50%), spec webkit ms);
+			float:none;
+			.nav-logo-img{
+				img {
+					max-height:30px;
+					max-width:50vw;
+				}
+			}
+		}
+	}	
+}

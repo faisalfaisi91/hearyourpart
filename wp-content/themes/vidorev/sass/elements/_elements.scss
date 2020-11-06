@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+}
+
+html {
+	overflow:visible; 
+	overflow-y:scroll;
+
+	&.disable-scroll{
+		overflow:hidden;
+	}
+}
+
+
+body {
+	margin:0;
+	padding:0;
+	-webkit-tap-highlight-color:transparent;
+}
+
+/*3.1 - A Tag*/
+	@import "a";
+
+/*3.2 - P Tag*/
+	@import "p";
+
+/*3.3 - ul, ol, li, Tag*/
+	@import "lists";
+
+/*3.4 - IMG Tag*/
+	@import "img";
+
+/*3.5 - Table Tag*/
+	@import "tables";
+
+/*3.6 - Blockquote Tag*/
+	@import "blockquote";
+
+/*3.7 - Pre Tag*/
+	@import "pre";
+
+/*3.8 - Strong Tag*/
+	@import "strong";
+
+/*3.9 - Social*/
+	@import "social";

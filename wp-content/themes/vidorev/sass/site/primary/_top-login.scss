@@ -1,0 +1,52 @@
+.login-elm:hover .top-login-info{
+	opacity:1;
+	visibility:visible;
+	@include prefixer(transform, scale(1, 1), spec webkit ms);
+	@include transiton-builder(opacity 0.2s ease-in-out, visibility 0.2s ease-in-out, transform 0s);
+}
+
+.top-login-info{
+	list-style:none;
+	padding:20px 20px 20px 20px;
+	position:absolute;
+	top:100%;
+	right:0;
+	background-color:$color__top-watch-background;
+	right:15px;
+	width:360px;
+	min-height:180px;
+
+	border-top: 1px solid $color__top-watch-border;
+
+	opacity:0;
+	visibility:hidden;
+	@include prefixer(transform, scale(1, 0), spec webkit ms);
+	@include prefixer(transform-origin, top, spec webkit ms);
+	@include prefixer(backface-visibility, hidden, spec webkit);
+
+	.top-login-content{
+		text-align:center;
+		text-transform:capitalize;
+		padding:20px 0 10px 0;
+		.fa-user-circle{
+			font-size:50px;
+			margin-bottom:20px;
+		}
+
+		a{
+			text-decoration:none;
+			text-transform:capitalize;			
+		}
+
+		.avatar{
+			margin:0 auto 20px auto;
+			display:block;
+			width:50px;
+			height:50px;			
+		}	
+	}
+
+	@media(max-width: 991px){
+		display: none;
+	}
+}

@@ -1,0 +1,280 @@
+#user-submitted-posts{
+	#usp_form{
+		margin:0;
+		padding:0;
+		fieldset{
+			margin-top:0;
+			margin-bottom:23px;
+			border-bottom:1px dashed #EAEAEA;
+			padding-bottom:30px;
+			input.usp-input,
+			select{
+				width:100%;
+			}
+		} 
+
+		label{
+			display:block;
+			width:100%;
+			font-weight:700;
+			font-size:14px;
+			text-transform:uppercase;
+			margin-bottom:12px;
+		}
+
+		div#usp-error-message{
+			&.usp-callout-failure,
+			.usp-error{
+				background-color:$color__main;
+				color:#FFFFFF;
+				padding: 8px 20px;
+				margin-bottom:23px;
+			}
+		}
+
+		div#usp-success-message{
+			background-color:$color__main-sub;
+			color:#FFFFFF;
+			padding: 8px 20px;
+			margin-bottom:23px;
+			text-transform:uppercase;
+		}
+		
+
+		ul.parsley-errors-list.filled li.parsley-required{
+			background-color:$color__main;			
+		}
+	}
+}
+
+.basic-button.user-submit-video{
+	min-width:0;
+}
+
+.dark-background{
+	#user-submitted-posts{
+		#usp_form{
+			fieldset{
+				border-bottom-color:rgba(255,255,255,0.1);
+			}
+		}
+	}
+
+	.codedropz-upload-handler{
+		border-color:rgba(255,255,255,0.15);
+	}
+
+	.dnd-upload-status .dnd-upload-image span{
+		color: rgba(255,255,255,0.6);
+	}
+	.dnd-upload-status .dnd-upload-details .name{
+		color:#FFFFFF;
+	}
+	.dnd-upload-status .dnd-upload-details .name em{
+		color:#999999;
+	}
+
+	.dnd-icon-remove.deleting{
+		color:#999999;
+	}
+}
+
+.site-header.header-sport .user-submit-video{
+	border-right:none;
+}
+
+.codedropz-upload-handler{
+	@include border-radius(0);
+	border: 2px dashed #E5E5E5;
+}
+.codedropz-upload-container{
+	padding:30px 20px;
+	h3{
+		font-size: 18px;
+	}
+}
+
+.dnd-upload-status .dnd-upload-details .name em{
+	font-weight: normal;
+}
+
+.dnd-upload-status + .dnd-upload-status{
+	margin-top: 15px;
+}
+
+.vidorev-submit-post{
+	h3{
+		text-transform:uppercase;
+		margin-bottom:15px;
+		margin-top:-5px;
+	}	
+	p{
+		padding:0;
+	}
+	padding-bottom:30px;
+	margin-bottom:40px;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	&:nth-last-child(2){
+		padding-bottom:0;
+		margin-bottom:0;
+		border-bottom:none;
+	}
+
+	span.desc-param{
+		font-style:italic;
+		color:#999999;
+		margin-top:-12px;
+		display:block;
+	}
+
+	&.video-file-dd .desc-param{
+		margin-top:24px;
+	}
+
+	input[type="file"]{
+		display:block;
+	}
+}
+
+div.wpcf7-response-output,
+.wpcf7 form .wpcf7-response-output{
+	margin: 40px 0 0 0;
+    padding: 10px 20px;
+}
+
+div.wpcf7-validation-errors, 
+div.wpcf7-acceptance-missing{
+	border-color:#FF0000;
+}
+
+.form-data-loading{
+	pointer-events:none !important;
+	opacity:0.5;
+}
+
+.form-front-end-submit{
+	.upload-park{
+		border:1px dashed #999999;
+		padding:20px;
+		margin-bottom:40px;
+	}
+}
+
+.dark-background{
+	.user-settings-ads{
+		fieldset{
+			border:2px solid rgba(255,255,255,0.1);			
+			legend{
+				background-color: rgba(255,255,255,0.15);
+			}
+			.disable-ads{
+				background-color: rgba(17,17,17,0.68);
+				border-bottom:2px solid rgba(255,255,255,0.1);
+				.disable-ads-content{					
+					background-color: #000000;
+					border:1px dashed rgba(255,255,255,0.5);
+					.level-highlight{
+						background-color: #FFFFFF;
+					    border: 1px solid $color__main;
+					    color: $color__main;					    
+					}				
+				}
+			}
+		}		
+		
+		.dis-notice{
+			color:#999999;
+		}
+		.desc-param{
+			color:#999999;
+		}		
+	}
+}
+
+.user-settings-ads{
+	fieldset{
+		border:2px solid $color__border-input;
+		padding:30px 20px 20px 20px;
+		position: relative;
+		overflow: hidden;		
+		&:not(:last-child){
+			margin-bottom:40px;
+		}
+		legend{
+			padding:7px 15px;
+			background-color: #E5E5E5;
+		}
+		.disable-ads{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(255,255,255,0.6);
+			@include flexVerticalAlignMiddle;
+			@include flexRowCenter;
+			z-index: 1;
+			border-bottom:2px solid $color__border-input;
+			.disable-ads-content{
+				padding:10px 15px;
+				background-color: #000000;
+				margin-left: 20px;
+				margin-right: 20px;
+				.level-highlight{
+					background-color: #FFFFFF;
+				    border: 1px solid $color__main;
+				    color: $color__main;
+				    padding: 2px 8px;
+				    font-weight: bold;
+				}				
+			}
+		}
+	}
+	.frontend-ads-settings-row{
+		&:not(:last-child){
+			margin-bottom: 15px;
+		}
+		&.button-submit{
+			text-align: center;
+		}
+		.notice-submit{
+			color:#0CA308;
+			&.error-text{
+				color:#CC0000;
+			}
+			&:not(:empty){
+				margin-bottom:30px;
+			}
+		}
+	}
+	input[name="ads_types"]{
+		display: inline-block;
+		vertical-align: middle;
+		+label{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		&:checked{
+			+label{
+				font-weight: bold;
+			}
+		}
+	}
+	.dis-notice{
+		color:#999999;
+		font-style: italic;
+	}
+	.desc-param{
+		color:#999999;
+		font-style: italic;
+		margin-top: -5px;
+		display: block;
+	}
+
+	#ads_settings_update{
+		&.loading-submit{
+			opacity: 0.5;
+			pointer-events: none;
+		}
+	}
+}

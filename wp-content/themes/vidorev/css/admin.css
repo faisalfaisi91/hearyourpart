@@ -1,0 +1,460 @@
+#adminmenu #toplevel_page_vidorev-theme-settings, #adminmenu #toplevel_page_vidorev-theme-settings > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #toplevel_page_vidorev-theme-settings div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #toplevel_page_vidorev-theme-settings:hover, #adminmenu #toplevel_page_vidorev-theme-settings:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#toplevel_page_vidorev-theme-settings a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#toplevel_page_vidorev-theme-settings .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-vid_playlist, #adminmenu #menu-posts-vid_playlist > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-vid_playlist div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-vid_playlist:hover, #adminmenu #menu-posts-vid_playlist:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_playlist a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_playlist .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+
+#adminmenu #menu-posts-vid_channel, #adminmenu #menu-posts-vid_channel > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-vid_channel div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-vid_channel:hover, #adminmenu #menu-posts-vid_channel:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_channel a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_channel .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+
+#adminmenu #menu-posts-vid_actor, #adminmenu #menu-posts-vid_actor > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-vid_actor div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-vid_actor:hover, #adminmenu #menu-posts-vid_actor:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_actor a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_actor .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-vid_director, #adminmenu #menu-posts-vid_director > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-vid_director div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-vid_director:hover, #adminmenu #menu-posts-vid_director:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_director a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_director .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+
+#adminmenu #menu-posts-youtube_broadcast, #adminmenu #menu-posts-youtube_broadcast > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-youtube_broadcast div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-youtube_broadcast:hover, #adminmenu #menu-posts-youtube_broadcast:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-youtube_broadcast a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-youtube_broadcast .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+
+#adminmenu #menu-posts-video_report_check, #adminmenu #menu-posts-video_report_check > a {
+	background-color: #910BC4;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-video_report_check div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-video_report_check:hover, #adminmenu #menu-posts-video_report_check:hover > a {
+	background-color: #8C04B8;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-video_report_check a.wp-has-current-submenu {
+	background-color: #8C04B8;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-video_report_check .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+
+#adminmenu #menu-posts-vid_series, #adminmenu #menu-posts-vid_series > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-vid_series div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-vid_series:hover, #adminmenu #menu-posts-vid_series:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_series a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-vid_series .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+
+#adminmenu #menu-posts-amazon_associates, #adminmenu #menu-posts-amazon_associates > a {
+	background-color: #F6D749;
+	color: #000000;
+}
+#adminmenu #menu-posts-amazon_associates div.wp-menu-image:before {
+	color: #000000;
+}
+#adminmenu #menu-posts-amazon_associates:hover, #adminmenu #menu-posts-amazon_associates:hover > a {
+	background-color: #F8CC00;
+}
+#adminmenu li#menu-posts-amazon_associates a.wp-has-current-submenu {
+	background-color: #F8CC00;
+}
+
+#adminmenu #menu-posts-video_user_submit, #adminmenu #menu-posts-video_user_submit > a {
+	background-color: #278811;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-video_user_submit div.wp-menu-image:before {
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-video_user_submit:hover, #adminmenu #menu-posts-video_user_submit:hover > a {
+	background-color: #20710d;
+}
+#adminmenu li#menu-posts-video_user_submit a.wp-has-current-submenu {
+	background-color: #20710d;
+}
+
+#adminmenu #menu-posts-youtube_automatic, #adminmenu #menu-posts-youtube_automatic > a {
+	background-color: #CC0000;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-youtube_automatic div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-youtube_automatic:hover, #adminmenu #menu-posts-youtube_automatic:hover > a {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-youtube_automatic a.wp-has-current-submenu {
+	background-color: #AA0000;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-youtube_automatic .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+
+/**/
+#adminmenu #menu-posts-youtube_live_video, #adminmenu #menu-posts-youtube_live_video > a {
+	background-color: #2b62ed;
+	color: #FFFFFF;
+}
+#adminmenu #menu-posts-youtube_live_video div.wp-menu-image:before {
+	color: rgba(255,255,255,1.00);
+}
+#adminmenu #menu-posts-youtube_live_video:hover, #adminmenu #menu-posts-youtube_live_video:hover > a {
+	background-color: #2156db;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-youtube_live_video a.wp-has-current-submenu {
+	background-color: #2156db;
+	color: #FFFFFF;
+}
+#adminmenu li#menu-posts-youtube_live_video .wp-submenu a:hover {
+	color: #FFFFFF;
+}
+/**/
+
+#adminmenu li#menu-posts-video_user_submit .update-plugins{
+	background-color:#FFFFFF;
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.big-publish-status{
+	font-weight:bold;
+	color: #FF0000;
+	font-size:16px;
+}
+.small-publish-status{
+	color: #278811;
+}
+
+.post-meta-group-show {
+	display: block !important;
+}
+.post-meta-group-hide {
+	display: none !important;
+}
+#main-sidebar .vp-custom-column-widget {
+	display: none !important;
+}
+
+#vidorev_theme_options-custom_scs .redux_slides_add_remove,
+#vidorev_theme_options-custom_submit_polylang .redux_slides_add_remove {
+	display: none;
+}
+
+.vidorev-dashboard-wrapper,
+.vidorev-dashboard-wrapper *{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vidorev-dashboard-wrapper{
+	margin-top:40px;
+}
+.vidorev-dashboard-wrapper .dashboard-row{
+	margin-right: -15px;
+    margin-left: -15px;
+	display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.vidorev-dashboard-wrapper .dashboard-row .dashboard-col{
+	display: flex;
+	width:370px;
+	padding-left:15px;
+	padding-right:15px;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+@media(max-width:790px){
+	.vidorev-dashboard-wrapper .dashboard-row .dashboard-col{
+		width:50%;
+	}
+}
+@media(max-width:575px){
+	.vidorev-dashboard-wrapper .dashboard-row .dashboard-col{
+		width:100%;
+	}
+}
+
+.vidorev-dashboard-wrapper .dashboard-row .dashboard-col > * {
+	width:100%;
+	background-color:#FFFFFF;
+	padding:0 20px 20px 20px;
+}
+
+.vidorev-dashboard-wrapper .dashboard-row .dashboard-col img{
+	border:1px solid #B8B8B8;
+	display:block;
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.vidorev-dashboard-wrapper .dashboard-row .dashboard-col .sub-title{
+	font-weight:bold;
+	color:#999999;
+	margin-bottom:20px;
+	min-height:18px;
+}
+
+.vidorev-dashboard-wrapper .dashboard-row .dashboard-col.documentation img {
+	border:none;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.vidorev-dashboard-wrapper .dashboard-row .dashboard-col .button{
+	margin-top:20px;
+}
+
+
+.vidorev-dashboard-wrapper .dashboard-row .dashboard-col .disable-button{
+	opacity:0.5;
+	pointer-events:none;
+}
+
+#loading-import-sample-data {
+	position:fixed;
+	z-index:999999999;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.9);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+}
+#loading-import-sample-data.active-sample {
+	opacity:1;
+	visibility:visible;
+}
+
+#loading-import-sample-data > * {
+	position:absolute;
+	top:50%;
+	left:0;
+	text-align:center;
+	width:100%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	font-size:24px;
+	padding:40px;
+	color:rgba(255,252,252,1.00);
+	line-height:1.6;
+}
+
+.progress-import{
+	font-size:18px;
+	color:#FF0000;
+	margin-bottom:15px;
+	display:block;
+}
+
+.tc-information, 
+.tb-infor-error { padding:15px 30px; background-color:rgba(65,185,150,1.00); color:rgba(255,255,255,1.00); display:none; margin-top:40px;}
+.tc-information a,
+.tc-information a:focus { display:block; font-size:16px; font-weight:bold; text-decoration:none; color:rgba(255,255,255,1.00); line-height:1.8; text-transform:uppercase; outline:none; box-shadow:none; -webkit-box-shadow:none;}
+.tc-information a:hover { text-decoration: underline;}
+
+.tb-infor-error { font-size:16px; background-color:rgba(255,73,76,1.00); color:rgba(255,255,255,1.00);}
+
+.tc-information.active-infor,
+.tb-infor-error.active-infor { display:block;}
+
+.install-plugin-required{
+	text-align:left;
+	margin-top:20px;
+	color:#FF0000;
+}
+
+td.column-Shortcode_ID{
+	vertical-align:middle;
+}
+.shortcode-texxt{
+	color:#FF0000;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 20px;
+}
+
+.cmb2-metabox-description code {
+	word-break: break-word;
+}
+
+body.post-type-video_user_submit #publishing-action{
+	display:none !important;
+}
+
+.column-next_execution{
+	vertical-align:middle;
+}
+
+.youtube-execution-time{
+	display:inline-block;
+	margin-top:3px;
+}
+
+.action-disable{
+	opacity:0.5 !important;
+	pointer-events:none !important;
+}
+
+select.vidorev-admin-ajax,
+.bee_select_2 .select2-container{
+	width:100% !important;
+}
+
+body[class*="branch-5"] .postbox.cmb2-postbox{
+	background-color: #FAFAFA;
+    box-shadow: none;
+	-webkit-box-shadow:none;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+body[class*="branch-5"] .postbox.cmb2-postbox h2.hndle{
+	background-color: rgba(0,0,0,0.05);
+}
+
+.custom-column-display.get_field_post_format{
+	display:none;
+}
+.cmb2-textarea-code.disable-codemirror{
+	width:100%;
+}
+
+.wp-block{
+	max-width:750px;
+}
+
+#notice-update-vidorev{
+	position:fixed;
+	top:auto;
+	left:auto;	
+	right:30px;
+	bottom:30px;
+	width:240px;
+	background-color:rgba(0,0,0,0.68);
+	z-index: 9999;
+	margin-top:-150px;
+	margin-left:-150px;
+	text-align:center;
+	padding:30px;
+	color:#FFFFFF;
+}
+
+#notice-update-vidorev h2{
+	color:#FFFFFF;
+}

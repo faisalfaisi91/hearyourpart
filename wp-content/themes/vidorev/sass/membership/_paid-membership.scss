@@ -1,0 +1,526 @@
+.pmpro_content_message{
+	padding:20px 15px 25px 15px;
+	border:2px dashed $color__main;
+	background-color:rgba(255,255,255,1.0);
+	text-align:center;
+	line-height:2;
+	font-size:18px;
+	color:$color__main;
+
+	&:not(:first-child){
+		margin-top:25px;
+	}
+
+	a{
+		margin:5px !important;
+	}
+}
+
+table{
+	&.pmpro_checkout,
+	&.pmpro_invoice{
+		margin-top:0;
+		margin-bottom:0;
+		thead{
+			background-color:rgba(0,0,0,0.05);
+			text-transform:uppercase;
+		}
+	}
+}
+
+#pmpro_levels_table{
+	background-color:transparent;
+}
+
+#pmpro_levels_table.pmpro_checkout thead tr th:last-child{
+	width:5%;
+}
+
+ul+.pmpro_billing_gateway-none{
+	margin-top: 40px;
+}
+
+body.pmpro-cancel{
+	.pmpro_actionlinks{
+		@media(max-width:767px){
+			a{
+				width:100%;
+				+a {
+					margin-top:20px;
+				}
+			}
+		}
+	}
+}
+
+#pmpro_cancel table,
+#pmpro_account table{
+	margin-top:0;
+	margin-bottom:0;
+	thead{
+		background-color:rgba(0,0,0,0.05);
+		text-transform:uppercase;
+	}
+}
+
+#nav-below{
+	margin-top:40px;
+	&:before,
+	&:after{
+		content:'';
+		display:table;
+		clear:both;
+	}
+	@media(max-width:767px){
+		> *{
+			float:none;
+			margin:0;
+			width:100%;
+			display:block;
+			a{
+				width:100%;
+			}
+			+ * {
+				margin-top:20px;
+			}
+		}
+	}
+}
+
+#pmpro_cancel{
+	hr{
+		display:none;
+	}
+
+	h3{
+		margin-top:-5px;
+		margin-bottom:33px;
+		display:none;
+		font-weight:700;
+		text-transform:uppercase;
+	}
+}
+
+#pmpro_account{
+	.pmpro_box{
+		border-top:none;
+		padding:0 0 34px 0;
+		margin:0 0 40px 0;
+		border-bottom:1px solid rgba(0,0,0,0.1);
+		&:last-child{
+			border-bottom:0;
+			padding-bottom:0;
+			margin-bottom:0;
+		}
+		h3{
+			margin-top:-5px;
+			margin-bottom:20px;
+			font-weight:700;
+			text-transform:uppercase;
+		}
+	}
+}
+
+.pmpro_actionlinks{
+	margin-top:10px;
+	margin-bottom:10px;
+	&:last-child{
+		margin-bottom:0;
+	}
+	a{
+		color:$color__main;
+		text-decoration:none;
+		font-size:12px;
+		&:hover{
+			color:$color__main;
+			text-decoration:underline;
+		}
+	}	
+}
+
+.pmpro_actionlinks a.pmpro_nolink.pmpro_cancel{
+	padding: 12px 20px 12px 20px;
+	color:#FFFFFF;
+}
+
+small {
+	font-size:12px;
+	a{
+		color:$color__main;
+		text-decoration:none;
+		text-transform:capitalize;
+		&:hover{
+			color:$color__main;
+			text-decoration:underline;
+		}
+	}	
+}
+
+.pmpro_message{
+	@include border-radius(0);
+	margin:0 0 40px 0;
+	padding:12px 20px;
+
+	a{
+		color:#000000;
+		&:hover{
+			color:$color__main;
+		}
+	}
+}
+
+body.pmpro-billing .entry-content > #pmpro_form:not(:first-child){
+	margin-top:40px;
+}
+
+input[type="button"].pmpro_btn.pmpro_btn-cancel{
+	background-color:#333333;
+	color:#FFFFFF;
+	&:hover{
+		background-color:#000000;
+	}
+}
+
+.dark-background{
+	input[type="button"].pmpro_btn.pmpro_btn-cancel{
+		background-color:#333333;
+		color:#FFFFFF;
+		&:hover{
+			background-color:#FFFFFF;
+			color:#000000;
+		}
+	}
+}
+
+#pmpro_form{
+	hr{
+		display:none;
+	}
+	.pmpro_checkout{
+		margin-bottom:40px;
+		border-bottom:1px solid rgba(0,0,0,0.1);
+		padding-bottom:16px;
+		h3{
+			margin:-5px 0 30px 0;
+			span{
+				display:block;
+				&.pmpro_checkout-h3-name{
+					margin-bottom:5px;
+					font-weight:700;
+					text-transform:uppercase;
+				}
+				&.pmpro_checkout-h3-msg{
+					font-size:12px;
+					font-style:normal;
+					a{
+						color:$color__main;
+						text-decoration:none;
+						text-transform:capitalize;
+						&:hover{
+							color:$color__main;
+							text-decoration:underline;
+						}
+					}	
+				}
+			}	
+		}
+		label{
+			margin-bottom:7px;
+			text-transform:uppercase;
+		}
+
+		&#pmpro_pricing_fields{
+			padding:25px 20px;
+			border:1px solid rgba(0,0,0,0.1);
+			background-color:rgba(0,0,0,0.05);
+			.pmpro_checkout-fields{
+				margin-left:0;
+				margin-right:0;
+				> p:first-child{
+					margin-top:-10px;
+				}
+			}
+			#pmpro_level_cost{
+				margin-bottom:-15px;
+			}
+			clear:both;
+		}
+
+		.pmpro_checkout-fields{
+			&:after,
+			&:before{
+				content:'';
+				clear:both;
+				display:table;
+			}
+
+			margin-left:-15px;
+			margin-right:-15px;
+
+			.pmpro_checkout-field{
+				float:left;
+				width:50%;
+				padding-left:15px;
+				padding-right:15px;
+				@media(max-width:767px){
+					width:100%;
+					float:none;
+				}
+			}
+
+			#ExpirationMonth,
+			#ExpirationYear{
+				width:25%;
+				@media(max-width:1199px){
+					width:35%;
+				}
+			}
+
+			#ExpirationYear{
+				margin-left:5px;
+			}
+
+			textarea,
+			select,
+			input{
+				padding:6px 15px 5px 15px;
+				border-width:1px;	
+				min-width:0;
+				width:90%;
+				@media(max-width:767px){
+					width:95%;					
+				}
+				max-width:none;	
+				&.pmpro_error{
+					background-color:#f2dede;
+					border-color:#ebccd1;
+					color:#a94442;
+				}	
+			}
+			select{
+				padding:7px 15px 7px 15px;
+			}
+		}
+	}
+}
+
+.pmpro_checkout_gateway-stripe{
+	#pmpro_form{
+		#pmpro_payment_information_fields.pmpro_checkout{
+			.pmpro_checkout-fields{				
+				display: block;
+			}
+		}
+	}
+}
+
+#pmpro_payment_method.pmpro_checkout{
+	.pmpro_checkout-fields{
+		margin-left:0;
+		margin-right:0;
+	}
+	.pmpro_checkout-fields input[type="radio"]{
+		width:auto;
+	}
+	.pmpro_checkout-fields a{
+		text-decoration: none;
+	}
+	.pmpro_checkout-fields > span {
+		display:block;
+		margin: 0 0 15px 0;
+		&:last-child{
+			margin-bottom:0;
+		}
+	}
+
+	.pmpro_checkout-fields > span > * {
+		display:inline-block;
+		vertical-align:middle;
+	}
+}
+
+form.pmpro_form #pmpro_processing_message{
+	margin-top: 0;
+	&[style*="visibility: hidden"]{
+		display: none;
+	}
+}
+.pmpro_btn-submit-checkout{
+	max-width: 200px;
+}
+
+a.pmpro_a-print{
+	&~hr{
+		background-color:transparent;
+		border-color:rgba(0,0,0,0.1);
+		border-width:0 0 1px 0;
+		margin-top:35px;
+		margin-bottom:35px;
+	}
+}
+
+.dark-background{
+
+	.pmpro_content_message{		
+		background-color:#252525;		
+	}
+
+	table{
+		&.pmpro_checkout,
+		&.pmpro_invoice{			
+			thead{
+				background-color:rgba(255,255,255,0.1);				
+			}
+		}
+	}
+
+	#pmpro_cancel table,
+	#pmpro_account table{		
+		thead{
+			background-color:rgba(255,255,255,0.1);
+		}
+	}	
+
+	#pmpro_account{
+		.pmpro_box{			
+			border-bottom-color:rgba(255,255,255,0.1);			
+		}
+	}
+
+	.pmpro_actionlinks a.pmpro_nolink.pmpro_cancel{
+		color:#FFFFFF;
+		&:hover{
+			color:#000000;
+		}
+	}
+	small {
+		a{
+			color:$color__main;			
+			&:hover{
+				color:$color__main;				
+			}
+		}	
+	}
+
+	#pmpro_form{		
+		.pmpro_checkout{
+			border-bottom-color:rgba(255,255,255,0.1);			
+
+			&#pmpro_pricing_fields{
+				border-color:rgba(255,255,255,0.1);
+				background-color:rgba(255,255,255,0.1);				
+			}
+		}
+	}
+
+	a.pmpro_a-print{
+		&~hr{			
+			border-color:rgba(255,255,255,0.1);			
+		}
+	}
+}
+
+.pmpro_btn:hover, a.pmpro_btn:hover, .entry-content a.pmpro_btn:hover, .pmpro_btn:focus, .pmpro_checkout .pmpro_btn:hover, .pmpro_checkout .pmpro_btn:focus, .pmpro_content_message a:focus, .pmpro_content_message a:hover{
+	border:none;
+}
+
+.woocommerce-info{
+	border-top-color:$color__main;
+	&:before{
+		color:$color__main;
+	}
+}
+
+.woocommerce-error::before, 
+.woocommerce-info::before, 
+.woocommerce-message::before{
+	top:auto;
+}
+
+.vidorev-membership-content{
+	.woocommerce{
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		.woocommerce-info{
+			margin: 0 !important;
+			&:before{
+				display: none;
+			}
+
+			.wc-memberships-products-grant-access{
+				a{
+					background-color: #FFFFFF;
+					color:$color__main;
+					padding:2px 5px;
+					font-weight: 500;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.woocommerce-error, .woocommerce-info, .woocommerce-message{
+		padding: 1em 2em 1em 2em;
+	}
+}
+
+.pmpro_lost_password-instructions{
+	margin-bottom:23px;
+	margin-top:-15px;
+}
+
+.pmpro_actions_nav{
+	a{
+		text-decoration: none;
+	}
+}
+
+#loginform,
+#lostpasswordform{
+
+	margin-top:-15px;
+
+	input[type=text], 
+	input[type=password]{
+		max-width: none;
+		display: block;
+		margin-bottom: 0;
+	}
+
+	label{
+		text-transform: uppercase;
+		margin-bottom:7px;
+	}
+
+	p{
+		margin-bottom: 23px;
+		padding:0;
+	}
+
+	#rememberme{
+		vertical-align: middle;
+    	margin-top: -3px;
+    	margin-right: 4px;
+	}
+
+	+ hr{
+		margin-top: 30px;
+		margin-bottom:14px;
+		border:1px solid #E5E5E5;
+	}
+
+	.pmpro_lost_password-fields div{
+		margin-bottom:30px;
+	}
+}
+
+.dark-background{
+	#loginform + hr, #lostpasswordform + hr{
+		border-color:rgba(255,255,255,0.1);
+	}
+}
+
+.myCred-watch-trailer-btn{
+	display: none !important;
+}

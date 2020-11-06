@@ -1,0 +1,64 @@
+.top-ad-wrap,
+.ads-above-footer,
+.ads-above-single,
+.ads-below-single,
+.ads-between-post,
+.ads-above-single-player,
+.ads-above-channel{
+	ins{
+		background-color:transparent;
+	}
+}	
+
+.ads-above-footer,
+.ads-above-single,
+.ads-below-single,
+.ads-between-post,
+.ads-above-single-player,
+.ads-above-channel{
+	img {
+		display:block;
+		margin:auto;
+	}
+}
+
+.ads-above-footer{
+	margin-bottom:60px;
+	text-align: center;
+}
+
+.ads-above-single{
+	margin-top:40px;
+	margin-bottom:40px;
+	text-align: center;
+}
+.single-player-video-wrapper .ads-above-single{
+	margin-top:30px;
+	margin-bottom:0;
+}
+.global-single-content > .ads-above-single:first-child{
+	margin-top:0;
+}
+
+.ads-below-single{
+	margin-top:60px;
+	text-align: center;
+}
+
+.ads-between-post{
+	width:100%;
+}
+
+.ads-above-channel{
+	margin-bottom: 40px;
+}
+
+#youzer ~ #site-footer .ads-above-footer{
+	margin-top: 60px;
+}
+
+body.single-vid_channel{
+	.ads-below-single{
+		margin-bottom: 60px;
+	}
+}

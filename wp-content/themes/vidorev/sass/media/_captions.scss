@@ -1,0 +1,16 @@
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width:100%;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto;
+}
+.wp-caption-text {
+	text-align: left;
+	color:#999999;
+	font-style:italic;
+}
+.wp-caption .wp-caption-text {
+	margin: 0.9em 0 1.25em 0;
+}

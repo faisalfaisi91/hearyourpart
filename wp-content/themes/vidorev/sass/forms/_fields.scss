@@ -1,0 +1,336 @@
+input:not([type]),
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+	display:block; 
+	width:100%; 
+	padding: 11px 20px 10px 20px;
+	outline:none; 
+	margin-bottom:10px; 
+
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+	        box-sizing: border-box;	
+	-webkit-appearance:none;   
+	
+	@include transiton-builder(border-color 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out, width 0.3s ease-in-out);
+	@include prefixer(box-shadow, none, spec webkit);     
+
+	color: $color__text-input;
+	background-color: $color__background-input;
+	border: 2px solid $color__border-input;
+
+	font-family: $font__main;
+	font-size: $font__main-size;
+	font-weight: $font__main-weight;
+	line-height: $font__main-line-height;	
+	letter-spacing: $font__main-letter-spacing;	
+	text-transform: $font__main-text-transform;
+	text-decoration: $font__main-text-decoration;
+	font-style: $font__main-style;
+
+	&:focus {
+		color: $color__text-input-focus;
+		border-color: $color__border-input-focus;
+		outline: 0;
+		@include prefixer(box-shadow, none, spec webkit);
+	}
+}
+
+select {
+	-webkit-appearance:menulist;
+
+	border: 2px solid $color__border-input;
+
+	&[multiple]{
+		-webkit-appearance: listbox;
+	}
+}
+
+textarea {
+	height:170px; 
+	padding-top:13px; 
+	padding-bottom:12px; 
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+	        box-sizing: border-box;	
+}
+
+input::-moz-placeholder{
+	color: $color__text-input;
+	opacity: 1;
+	@include transiton-builder(border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out);
+} 
+input:-ms-input-placeholder{
+	color: $color__text-input;
+	opacity: 1;
+	@include transiton-builder(border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out);
+} 
+input::-webkit-input-placeholder{
+	color: $color__text-input;
+	opacity: 1;
+	@include transiton-builder(border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out);
+} 
+
+input:focus::-moz-placeholder{
+	color: $color__text-input-focus;
+	opacity: 1;
+} 
+input:focus:-ms-input-placeholder{
+	color: $color__text-input-focus;
+	opacity: 1;
+} 
+input:focus::-webkit-input-placeholder{
+	color: $color__text-input-focus;
+	opacity: 1;
+} 
+
+textarea::-moz-placeholder{
+	color: $color__text-input;
+	opacity: 1;
+	@include transiton-builder(border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out);
+} 
+textarea:-ms-input-placeholder{
+	color: $color__text-input;
+	opacity: 1;
+	@include transiton-builder(border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out);
+} 
+textarea::-webkit-input-placeholder{
+	color: $color__text-input;
+	opacity: 1;
+	@include transiton-builder(border-color 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out);
+} 
+
+textarea:focus::-moz-placeholder{
+	color: $color__text-input-focus;
+	opacity: 1;
+} 
+textarea:focus:-ms-input-placeholder{
+	color: $color__text-input-focus;
+	opacity: 1;
+} 
+textarea:focus::-webkit-input-placeholder{
+	color: $color__text-input-focus;
+	opacity: 1;
+}
+
+input::-ms-clear {
+	display: none;
+	width:0;
+	height:0;
+	overflow:hidden;
+}
+input:-webkit-autofill, 
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+input:focus:-webkit-autofill, 
+input[type="text"]:-webkit-autofill,
+input[type="text"]:-webkit-autofill:focus,
+input[type="text"]:-webkit-autofill:hover,
+input[type="text"]:focus:-webkit-autofill {
+	background-color:$color__background-input; 
+	-webkit-box-shadow:0 0 0 50px $color__background-input inset;
+	-webkit-text-fill-color:$color__text-input-focus;
+	transition:none;
+}
+
+.dark-background{
+	input:not([type]), 
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="number"],
+	input[type="tel"],
+	input[type="range"],
+	input[type="date"],
+	input[type="month"],
+	input[type="week"],
+	input[type="time"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="color"],
+	textarea,
+	select {
+		color: $color__text-input-dark-background;
+		background-color: $color__background-input-dark-background;
+		border-color: $color__border-input-dark-background;
+
+		&:focus {
+			color: $color__text-input-focus-dark-background;
+			border-color: $color__border-input-focus-dark-background;
+		}
+	}
+
+	input::-moz-placeholder{
+		color: $color__text-input-dark-background;		
+	} 
+	input:-ms-input-placeholder{
+		color: $color__text-input-dark-background;		
+	} 
+	input::-webkit-input-placeholder{
+		color: $color__text-input-dark-background;		
+	} 
+
+	input:focus::-moz-placeholder{
+		color: $color__text-input-focus-dark-background;		
+	} 
+	input:focus:-ms-input-placeholder{
+		color: $color__text-input-focus-dark-background;		
+	} 
+	input:focus::-webkit-input-placeholder{
+		color: $color__text-input-focus-dark-background;
+	} 
+
+	textarea::-moz-placeholder{
+		color: $color__text-input-dark-background;
+	} 
+	textarea:-ms-input-placeholder{
+		color: $color__text-input-dark-background;
+	} 
+	textarea::-webkit-input-placeholder{
+		color: $color__text-input-dark-background;
+	} 
+
+	textarea:focus::-moz-placeholder{
+		color: $color__text-input-focus-dark-background;
+	} 
+	textarea:focus:-ms-input-placeholder{
+		color: $color__text-input-focus-dark-background;
+	} 
+	textarea:focus::-webkit-input-placeholder{
+		color: $color__text-input-focus-dark-background;
+	}
+
+	select{
+		option{
+			color: $color__text-input-dark-background;
+			background-color: $color__footer-bg;
+		}
+	}
+}
+
+.select2-container--default{
+	.select2-selection--multiple,
+	.select2-selection--single{
+		@include border-radius(0);
+		color: $color__text-input;
+		background-color: $color__background-input;
+		border: 2px solid $color__border-input;
+		min-height:50px;
+
+		.select2-selection__rendered{
+			padding:0 20px;		
+		}
+		.select2-selection__choice{
+			margin-top:7px;
+			@include border-radius(0);
+			padding:0 10px;
+		}	
+
+		.select2-search--inline{
+			.select2-search__field{
+				margin:10px 0 0 0;
+				display:inline;
+			}
+		}
+	}
+
+	.select2-selection--single{
+		outline:none;		
+		span.select2-selection__rendered{
+			margin:9px 0 0 0;
+			display:inline-block;
+		}
+		span.select2-selection__clear{
+			margin-left:8px;
+		}
+	}
+
+	&.select2-container--focus{
+		.select2-selection--multiple{
+			border: 2px solid $color__border-input-focus;
+		}		
+	}
+
+	.select2-results__option{
+		padding-left:20px;
+		padding-right:20px;
+	}
+
+	.select2-dropdown{
+		border-color:$color__border-input;
+	}
+
+	.select2-search--dropdown {		
+		.select2-search__field{
+			border-color:$color__border-input;
+			&:focus{
+				border-color: $color__border-input-focus;
+			}
+		}
+	}
+
+	.select2-selection--single .select2-selection__arrow{
+		height:5px;
+		top:50%;
+		right:5px;
+		margin-top:-3px;
+	}
+}
+
+.dark-background{
+	.select2-container--default{
+		.select2-selection--multiple,
+		.select2-selection--single{
+			color: $color__text-input-dark-background;
+			background-color: $color__background-input-dark-background;
+			border-color: $color__border-input-dark-background;
+		}
+
+		&.select2-container--focus{
+			.select2-selection--multiple{
+				border-color: $color__border-input-focus;
+			}		
+		}
+
+		.select2-dropdown{
+			border-color:$color__border-input-dark-background;
+			background-color:#252525;
+		}
+
+		.select2-search--dropdown {		
+			.select2-search__field{
+				border-color:$color__border-input-dark-background;
+				&:focus{
+					border-color: $color__border-input-focus-dark-background;
+				}
+			}
+		}
+		.select2-results__option[aria-selected=true]{
+			background-color:#000000;
+		}
+		.select2-selection--single .select2-selection__rendered{
+			color:#FFFFFF;
+		}
+	}
+
+	.vidorev-submit-post{
+		border-bottom-color:rgba(255,255,255,0.15);
+	}
+}

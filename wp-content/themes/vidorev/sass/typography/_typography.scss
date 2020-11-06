@@ -1,0 +1,39 @@
+html{
+	text-rendering:optimizeLegibility;
+}
+body,
+.body-typography {
+	-webkit-font-smoothing:antialiased !important;
+	-moz-osx-font-smoothing:grayscale !important;
+
+	font-family: $font__main;
+	font-size: $font__main-size;
+	font-weight: $font__main-weight;
+	line-height: $font__main-line-height;	
+	letter-spacing: $font__main-letter-spacing;	
+	text-transform: $font__main-text-transform;
+	text-decoration: $font__main-text-decoration;
+	font-style: $font__main-style;
+
+	color: $color__text-main;
+}
+
+.font-size-10{
+	font-size: $font_size_10;
+}
+
+.font-size-12{
+	font-size: $font_size_12;
+}
+.font-size-18{
+	font-size: $font_size_18;
+}
+
+.dark-background{
+	color: $color__text-main-dark-background;
+}
+
+@import "headings";
+@import "navigation";
+@import "meta";
+@import "copy";

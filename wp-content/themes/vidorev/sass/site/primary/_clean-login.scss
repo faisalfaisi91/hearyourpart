@@ -1,0 +1,151 @@
+.cleanlogin-container{
+	@include prefixer(box-shadow, none, spec webkit ms);
+	@include border-radius(0);
+	border:2px solid #E5E5E5;
+	padding:30px;
+	@media(max-width:767px){
+		padding:20px;
+	}
+	margin-top:30px;
+	max-width:400px;
+
+	.cleanlogin-form{
+		input[type="text"], 
+		input[type="password"], 
+		input[type="email"],
+		select{
+			height:auto;
+			padding: 11px 20px 10px 20px;
+			margin-bottom:0;
+		} 
+		input[type="submit"]{
+			height:auto;
+			padding: 12px 20px 12px 20px;
+			width:auto;
+			text-transform:uppercase;
+			margin-bottom:0;
+			@media(max-width:480px){
+				min-width:100px;
+			}
+		}
+
+		.cleanlogin-field-username,
+		.cleanlogin-field-email,
+		.cleanlogin-field-password,
+		.cleanlogin-field-spam,
+		.cleanlogin-field-name,
+		.cleanlogin-field-surname{
+			background-position:5px 50%;
+			padding-left:45px !important;
+		}
+
+		.cleanlogin-field-remember{
+			line-height:1;
+			> *{
+				display:inline-block;
+				vertical-align:middle;
+			}
+		}
+
+		.cleanlogin-form label{
+			font-size:$font__main-size;
+		}
+
+		.cleanlogin-form-bottom{
+			margin-top:17px;
+			margin-bottom:-8px;
+		}
+
+		h4{
+			margin-bottom:0;
+			font-size:$h5_font_size;
+			font-weight:700;
+			text-transform:uppercase;
+			margin-bottom:18px;
+		}
+
+		.cleanlogin-form-description{
+			padding:0;
+			margin-bottom:23px;
+		}
+
+		fieldset + h4{
+			margin-top:16px;
+		}
+
+		label + input{
+			margin-top:3px;
+		}
+
+		span{
+			margin: 0;
+			color:inherit;
+		}
+	}
+
+	&.cleanlogin-full-width{
+		max-width:400px;
+		.cleanlogin-field{
+			width:100%;
+			margin-left:0;
+			float:none;
+		}
+
+		img{
+			display:block;
+			margin-bottom:20px;
+		}
+
+		form fieldset{
+			margin:0;
+		}
+	}
+
+	.cleanlogin-preview{
+		.cleanlogin-preview-top{
+			height:auto;
+			padding:0;
+			&:after,
+			&:before{
+				content:'';
+				display:table;
+				clear:both;
+			}
+			margin-top:-7px;
+			margin-bottom:23px;
+		}
+		h4{
+			margin-bottom:0;						
+		}
+	}
+}
+
+.cleanlogin-notification,
+.cleanlogin-notification{
+	@include prefixer(animation, initial, spec webkit ms);
+	&.error,
+	&.success{
+		border: none;
+	    @include border-radius(0);
+	    background: $color__main;
+	    color: #FFFFFF;
+	    padding: 13px 20px;
+	    margin: 30px auto 0 auto;
+	    max-width: 400px;
+	    @include prefixer(box-shadow, none, spec webkit ms);
+
+	    p{
+	    	padding:0;
+	    }
+	}	
+}
+
+.cleanlogin-notification.success{
+	background: $color__main-sub;
+}
+
+.dark-background{
+	.cleanlogin-container{
+		border-color:rgba(255,255,255,0.1);
+	}
+}

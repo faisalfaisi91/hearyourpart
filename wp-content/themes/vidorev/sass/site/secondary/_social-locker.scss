@@ -1,0 +1,52 @@
+.video-player-wrap{
+	
+	.onp-sl-content,
+	.onp-sl-content-wrap{
+		position:absolute !important;
+		margin:0 !important;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:0;
+		overflow:hidden;
+
+		+.onp-sl{
+			position:absolute !important;
+			margin:0;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			z-index:0;
+			overflow:hidden;
+			max-width:none;
+			@include flexVerticalAlignMiddle;
+
+			> *{
+				max-width:625px;
+				margin:auto;
+			}	
+
+			a.onp-sl-control{
+				color:#1A1A1A;
+			}	
+		}
+
+		.onp-sl-blur-area{
+			position: absolute;
+			top:0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+		}
+	}
+
+	.onp-sl-control-inner-wrap{
+		input.onp-sl-input{
+			border-color:rgba(0,0,0,0.2);
+			color:#1A1A1A;
+		}	
+	}
+	
+}

@@ -1,0 +1,146 @@
+a.invite_people{
+    cursor: pointer;
+    background-color: #4CADC9;
+    color: #fff!important;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    margin: 25px auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+.invite_inputs{
+    position: relative;
+}
+button.send-invite{
+    cursor: pointer;
+    background-color: #4CADC9;
+    color: #fff!important;
+    padding: 6px 16px;
+    font-size: 17px;
+    line-height: 1.33;
+    border-radius: 2px;
+    margin: 0;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.invites {
+    text-align: center;
+}
+.user-invited{
+    display: inline-block;
+    margin: 20px;
+}
+.user-invited img.avatar{
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    padding: 3px;
+}
+.user-invited .invited img.avatar{
+    border-color: #4CADC9;
+}
+.user-invited p{
+    margin: 0;
+    text-align: center;
+}
+.user-invited a{
+    margin: 0;
+    text-align: center;
+    color: #4CADC9;
+}
+a.user-resend, a.user-remove{
+    cursor: pointer;
+}
+.levelfeatures .fa-check{
+    color: #00ce00;
+}
+.levelfeatures .fa-close{
+    color: red;
+}
+.levelfeatures ul li:nth-child(1){
+    color: #4CADC9;
+    font-weight: bold;
+}
+a.update_playlist{
+    cursor: pointer;
+    background-color: #111111 !important;
+}
+.pmpro_checkout ul {
+    color: #fff !important;
+    font-size: 1em !important;
+}
+.pmpro_content_message {
+    font-size: 20px;
+    text-align: center;
+}
+span.pmpro_thead-name, span.pmpro_thead-msg{
+    color: #fff;
+}
+.def-block.clearfix{
+   /* padding: 0 !important;*/
+}
+.def-block{
+   background: #111 !important;
+}
+#payment-form button, span.update_playlist.btn, span.playlist_back_btn, span.create_playlist{
+    width: auto;
+    margin-top: 10px;
+    padding: 4px 14px;
+    font-family: Oswald, Tahoma, Helvetica;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    word-spacing: 0.2em;
+    background: #009ece;
+    border: 0 !important;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff !important;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    background-image: linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0.08) 0%, rgba(128,128,128,0.08) 50%, rgba(255,255,255,0.08) 100%);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgba(0,0,0,0.08)),color-stop(0.5, rgba(128,128,128,0.08)),color-stop(1, rgba(255,255,255,0.08)));
+    -moz-box-shadow: inset 0 0 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+span.update_playlist.btn, span.playlist_back_btn, span.create_playlist{
+    margin-top: 0 !important;
+    padding: 0 14px;
+}
+.create-playlist-btn h3.tt {
+border-bottom: 2px solid #2bbde9 !important;
+}
+span.playlist_back_btn {
+    float: right !important;
+    z-index: 9999;
+    top:20px;
+}
+span.playlist-back {
+    background: #009ece;
+    padding: 5px 10px;
+    color: #ffffff;
+    float: right;
+    line-height: 18px;
+    margin-right: 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+    font-family: Oswald, Tahoma, Helvetica;
+    text-transform: uppercase;
+}
+span.playlist-back:hover {
+    color:#ffffff !important;
+}

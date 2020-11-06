@@ -1,0 +1,1222 @@
+body.buddypress{
+
+	.youzer{
+		a{
+			text-decoration:none;
+		}
+		.yz-page-main-content{
+			padding-top:40px;
+			padding-bottom:60px;
+		}
+
+		.yz-hdr-v1 .yz-cover-content .yz-inner-content, 
+		#yz-profile-navmenu .yz-inner-content, 
+		&.yz-vertical-layout .yz-content, 
+		.yz-boxed-navbar, 
+		.wild-content, 
+		.yz-page-main-content, 
+		.yz-header-content, 
+		.yz-cover-content{
+			margin-left: auto;
+			margin-right: auto;
+
+			width:100%;
+
+			@media (min-width: 576px) {
+				width: 510px;
+				max-width: 100%;		
+			}
+
+			@media (min-width: 768px) {
+				width: 690px;
+				max-width: 100%;
+			}
+
+			@media (min-width: 992px) {
+				width: 930px;
+				max-width: 100%;
+			}
+
+			@media (min-width: 1200px) {
+				width: 1140px;
+				max-width: 100%;
+			}
+
+			@media(max-width:768px){
+				padding-left:0;
+				padding-right:0;
+			}
+		}
+		
+		@media(min-width:769px) and (max-width:991px){
+
+			.yz-hdr-v1 .yz-cover-content{
+				.yz-inner-content{
+					left:50%;
+					margin-left:-345px;
+				}				
+				.yz-user-statistics{
+					padding-right:0;
+				}
+			}
+			
+		}
+
+		@media screen and (max-width: 1170px) and (min-width: 769px){
+			.yz-cover-content{
+				padding-left:0;
+				padding-right:0;
+			}
+
+			#yz-profile-navmenu.yz-boxed-navbar{
+				margin-left:auto;
+				margin-right:auto;
+			}
+			.yz-hdr-v1 .yz-cover-content .yz-user-statistics,
+			.yz-hdr-v2 .yz-user-statistics,
+			.yz-hdr-v7 .yz-user-statistics{
+				padding-right:0;
+			}
+
+			&.yz-vertical-layout .yz-profile-sidebar {
+    			margin-top: 0;
+			}
+		}
+
+		@media(max-width:768px){
+			#yz-profile-navmenu .yz-settings-area, 
+			#yz-profile-navmenu .yz-social-buttons{
+				right:0;
+			}
+		}
+
+		.yz-responsive-menu{
+			left:0;
+		}
+
+		.yz-page-main-content{
+			padding-left:0;
+			padding-right:0;
+			@media(max-width:575px){
+				padding-left:15px;
+				padding-right:15px;
+			}
+		}
+
+		&.yz-horizontal-layout{
+			.yz-page-main-content{
+				padding-left:0;
+				padding-right:0;
+				@media(max-width:575px){
+					padding-left:15px;
+					padding-right:15px;
+				}
+			}
+		}
+
+		@media(max-width:768px){
+			#yz-profile-navmenu{
+				padding-left:15px;
+				padding-right:15px;
+			}
+		}
+
+		.yz-responsive-menu{
+			background:none !important;
+			min-width:0 !important;
+			padding:0 !important;
+			height:20px;
+		}		
+
+		.yz-directory-filter{
+			margin-left:0;
+			margin-right:0;
+		}
+
+		&.yz-vertical-layout{
+			.yz-page-main-content{
+				padding-top:0;
+				padding-bottom:0;
+			}
+			.yz-boxed-navbar .yz-profile-navmenu{
+				margin-left:0;
+			}
+			.yz-content{
+				padding-top:40px;
+			}
+
+			#yz-profile-navmenu{
+				margin-bottom:40px;
+				.yz-inner-content{
+					padding-left:0;
+					width:100%;
+				}
+			}			
+
+			@media screen and (max-width: 1170px) and (min-width: 769px){
+				.yz-content{
+					padding-left:0;
+					padding-right:0;
+				}				
+			}
+
+			@media(max-width:768px){
+				padding-left:0;
+				padding-right:0;
+				&:not(.yz-vertical-wild-navbar) .yz-nav-settings{
+					margin-right:0;
+				}
+			}
+
+			@media(max-width:575px){
+				padding-left:15px;
+				padding-right:15px;
+				.yz-page-main-content{
+					padding-left:0;
+					padding-right:0;
+				}
+			}
+		}
+
+		@media(max-width:991px){
+
+			.yz-3columns-layout, 
+			.yz-left-sidebar-layout, 
+			.yz-right-sidebar-layout{
+				display:block;
+			}
+
+			&.yz-horizontal-layout{
+				.yz-main-column,
+				.yz-sidebar-column{
+					width:100%;
+					.yz-column-content{
+						margin-left:0;
+						margin-right:0;
+					}
+				}
+			}
+			&.yz-vertical-layout{
+				#yz-profile-header, 
+				.yz-profile-sidebar,
+				.yz-profile-content{
+					width:100%;	
+					max-width:100%;				
+				}
+
+				.yz-profile-content{
+					.yz-inner-content{
+						padding-left:0;
+						padding-right:0;
+					}
+				}
+				#yz-profile-header{
+					margin-bottom:35px;
+				}
+			}			
+		}
+
+		#yz-members-list,
+		#yz-groups-list{
+			margin-left:-17.5px;
+			margin-right:-17.5px;
+			@media(max-width:991px){
+				li{
+					width:50%;
+					.yzm-user-data{
+						margin-left:17.5px;
+						margin-right:17.5px;
+					}
+				}
+			}
+
+			@media(max-width:767px){
+				margin-left:0;
+				margin-right:0;
+				li{
+					width:100%;
+					margin-left:0;
+					margin-right:0;			
+
+					.yzm-user-data{
+						margin-left:0;
+						margin-right:0;
+					}			
+				}
+			}
+		}
+
+		#members-group-list,
+		.members.friends,
+		.members.follows{
+			#yz-members-list{
+				margin-left:0;
+				margin-right:0;
+			}
+		}
+
+		#yz-groups-list{
+			width:auto;
+			max-width:none;
+		}
+
+		.groups.mygroups{
+			#yz-groups-list{
+				margin-left:0;
+				margin-right:0;
+				li{
+					width:100%;
+				}
+				line-height:1.8;				
+			}
+		}
+
+		#yz-groups-list.invites.item-list{
+			margin-left:0;
+			margin-right:0;
+			li{
+				width:100%;
+			}			
+			line-height:1.8;			
+		}
+
+		#bbpress-forums ul.bbp-lead-topic, 
+		#bbpress-forums ul.bbp-topics, 
+		#bbpress-forums ul.bbp-forums, 
+		#bbpress-forums ul.bbp-replies, 
+		#bbpress-forums ul.bbp-search-results{
+			background-color:#FFFFFF;
+		}
+
+		#bbpress-forums p.bbp-topic-meta img.avatar, 
+		#bbpress-forums ul.bbp-reply-revision-log img.avatar, 
+		#bbpress-forums ul.bbp-topic-revision-log img.avatar, 
+		#bbpress-forums div.bbp-template-notice img.avatar, 
+		#bbpress-forums .widget_display_topics img.avatar, 
+		#bbpress-forums .widget_display_replies img.avatar{
+			display:inline;
+		}
+		#bbp-user-topics-started > h2.entry-title{
+			display:none;
+		}
+
+		+.site-footer .popular-video-footer{
+			padding-top:60px;
+		}
+
+		#bbpress-forums{
+			#bbp-topic-search-form{
+				display: block;
+				position: relative;
+			}
+
+			.bbp-search-form #ts{
+				padding: 11px 120px 10px 20px;
+			}
+
+			.bbp-search-form #bbp_search_submit{
+				position: absolute;
+				top: 2px;
+				bottom:2px;
+				right:2px;
+				left: auto;
+				min-width: 0;
+			}
+		}
+
+	}
+
+	#yz-wall-nav .nice-select, 
+	div.item-list-tabs .nice-select, 
+	div.item-list-tabs .yz-bar-select{
+		min-width:180px;
+	}
+
+	.item-list-tabs li select{
+		display:inline-block;
+		height:40px;
+		line-height:40px;
+	}
+
+	.yz-tools-only-icons .yz-tool-btn{
+		line-height:1;
+	}
+
+	.yz-infos-content .yz-info-data, 
+	.yz-infos-content .yz-info-data a, 
+	.yz-infos-content .yz-info-label{
+		vertical-align:middle;
+	}
+
+	#send_message_form .yz_cs_checkbox_field .yz_field_indication:after{
+		top:5px;
+		left:7px;
+	}
+
+	.youzer-sidebar [class*="widget_bp_core_"],
+	.youzer-sidebar .widget-mycred-list{
+		ul, ol {
+			line-height:1.38;
+		}
+	}
+
+	.yz-recent-posts .yz-post-item{
+		padding:20px 35px;
+	}
+
+	#yz-profile-navmenu{
+		z-index:2;
+	}
+
+	.yz-tab.yz-custom .blog-wrapper{
+		padding:20px;
+		background-color:#FFFFFF;
+		@include border-radius(4px);
+		margin-bottom:20px;
+		.blog-items{
+			.post-item{
+				width:33.33333333%;
+				@media(max-width:767px){
+					width:50%;
+				}
+				@media(max-width:575px){
+					width:100%;
+				}
+				line-height:1.8;
+			}
+			.post-title{
+				line-height:1.35;
+			}
+		}
+
+		&.bd-wrapper-playlists,
+		&.bd-wrapper-channels{
+			.blog-items{
+				.post-item{
+					width:50%;
+					@media(max-width:767px){
+						width:100%;
+					}
+					@media(max-width:575px){
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+
+	.yz-user-badges-tab{
+		margin-left:-15px;
+		margin-right:-15px;
+	}
+	.yz-user-badges-tab .yz-user-badge-item{
+		width:calc( 25% - 31px );
+		width:-webkit-calc( 25% - 31px );
+		width:-moz-calc( 25% - 31px );
+		width:-ms-calc( 25% - 31px );
+		margin:0 15px 30px 15px;
+
+		@media(max-width:1024px){
+			width:calc( 33.33333333% - 31px );
+			width:-webkit-calc( 33.33333333% - 31px );
+			width:-moz-calc( 33.33333333% - 31px );
+			width:-ms-calc( 33.33333333% - 31px );
+		}
+
+		@media(max-width:768px){
+			width:calc( 50% - 31px );
+			width:-webkit-calc( 50% - 31px );
+			width:-moz-calc( 50% - 31px );
+			width:-ms-calc( 50% - 31px );
+		}
+	}
+	
+	.bp-widget.group-members-list{
+		ul, ol{
+			line-height:1.8;
+		}
+
+		.item .item-meta{
+			padding-top:0;
+			padding-bottom:0;
+		}
+	}
+
+	.yz-user-ratings-details{
+		z-index:5;
+	}
+	.yz-tools{
+		z-index:5;
+	}
+
+	.youzer .activity-list li.load-more a, 
+	.youzer .activity-list li.load-newest a{
+		padding:10px 20px;
+	}
+
+
+	.yz-wp-widget-box a:before,
+	.yz-delete-item:before,
+	.yz-edit-item:before,
+	.yz-hide-wg:before,
+	a.button:before,
+	.group-button a:before,
+	.message-button a:before,
+	.follow-button a:before,
+	.friendship-button a:before,
+	.widget_display_topics li:before,
+	.widget_display_forums li a:before,
+	.bp-site-wide-message strong:before,
+	.widget-content .widget-title:before,
+	.activity-list li.load-newest a:before,
+	.widget_display_views li .bbp-view-title:before,
+	.widget_bp_core_login_widget .bp-login-widget-user-logout a:before,
+	.yz-account-page .yz-delete-item:before,
+	.editfield label .field-visibility-text:before,
+	#bbpress-forums div.bbp-breadcrumb .bbp-breadcrumb-current a:before,
+	#bbpress-forums div.bbp-breadcrumb a.bbp-breadcrumb-home:before,
+	.bbp-header .bbp-reply-content #subscription-toggle a:before,
+	.bbp-header .bbp-reply-content #favorite-toggle a:before,
+	span.bbp-admin-links a:before,
+	#avatar-crop-actions .avatar-crop-submit:before,
+	#bp-delete-cover-image:before,
+	#bp-delete-avatar:before,
+	.yz-directory-filter #directory-show-search a:before,
+	.yz-directory-filter .item-list-tabs li a:before,
+	#yz-groups-list .action .group-button a:before,
+	.yz-group-navmenu a:before,
+	.group-request-list .action a:before,
+	#group-settings-form #avatar-crop-actions a.avatar-crop-submit:before,
+	#group-settings-form #bp-delete-cover-image:before,
+	#group-settings-form #bp-delete-avatar:before,
+	.yz-rate-user > label:before,
+	#sitewide-notice strong:before,
+	div.item-list-tabs a:before,
+	#friend-list .action a:before,
+	.activity-meta a:before,
+	.activity-comments li.show-all a:before,
+	.acomment-options a:before{
+		font-weight:900;
+	}
+
+	font-family: $font__main;
+
+	.youzer,
+	.youzer a,
+	.youzer p,
+	.youzer input[type="text"],
+	#youzer input[type="text"]{
+		font-family: $font__main;
+	}
+
+	.widget_bp_core_sitewide_messages .bp-site-wide-message button,
+	.youzer-main-content .wp-picker-container .wp-picker-clear,
+	.youzer-main-content .wp-picker-container .wp-color-picker,
+	.widget_bp_core_members_widget .item-options a,
+	.logy-form .logy-form-cover .form-cover-title,
+	.uk-upload-photo .uk-upload-button,
+	.logy-form-item .logy-item-content label,
+	.logy-social-buttons .logy-social-title,,
+	.yz-tool-btn .yz-tool-name,
+	.logy-social-buttons li a,
+	.logy-form-actions button,
+	.logy-form .form-title h2,
+	.yz-user-statistics li h3,
+	.logy-forgot-password,
+	.yzb-head-content h2,
+	.yzb-head-content h3,
+	.logy-link-button,
+	#sitewide-notice #message button,
+	.yz-reset-options,
+	.yz-save-options,
+	.uk-msg-head h3,
+	.yz-hdr-v1 .yz-name h2,
+	.yz-hdr-v2 .yz-name h2,
+	.yz-hdr-v3 .yz-name h2,
+	.yz-hdr-v6 .yz-name h2,
+	.yz-hdr-v7 .yz-name h2,
+	.settings-inner-content .options-section-title h2,
+	.settings-sidebar .account-menus ul li a,
+	.yz-cphoto-options .yz-upload-photo,
+	.settings-sidebar .account-menus h2,
+	.yz-account-header ul li a,
+	.action-button,
+	.yz-account-head h2,
+	.yza-item-button,
+	.yz-no-content,
+	#yz-directory-search-box form input[type=submit],
+	#yz-members-list .yzm-user-actions a,
+	#yz-groups-list .item .item-title a,
+	#yz-members-list .yz-fullname,
+	#yz-groups-list .action a,
+	#send-invite-form .submit input,
+	.group-members #search-members-form label input,
+	.group-members #search-members-form #members_search_submit,
+	.yz-recent-posts .yz-post-head .yz-post-title a,
+	.yz-wg-networks.yz-icons-full-width li a,
+	.yz-profile-navmenu .yz-navbar-item a,
+	.yz-project-content .yz-project-title,
+	.yz-tab-comment .yz-comment-fullname,
+	.yz-post-content .yz-post-title a,
+	.yz-video-head .yz-video-title,
+	.yz-tab-post .yz-post-title a,
+	.yz-widget .yz-widget-title,
+	.yz-box-head .yz-box-title,
+	.pagination .page-numbers,
+	.yz-project-type,
+	.yz-quote-owner,
+	.yz-box-404 h2,
+	.yz-post-type,
+	.yz-item-title,
+	.uk-option-item label,
+	.yz-items-list-widget .yz-list-item a.yz-item-name,
+	div.item-list-tabs li a,
+	.yz-pagination .yz-nav-links .page-numbers, 
+	.yz-pagination .yz-pagination-pages,
+	.yz-modal .uk-option-item .option-title,	
+	.yz-infos-content .yz-info-label,
+	.yzmsg-form-item label,
+	.members.friends #yz-members-list .item .item-title a,
+	#yz-group-buttons .group-button a,
+	.yz-wall-embed .yz-embed-name,
+	.yz-item-tool .yz-tool-name,
+	.activity-meta a,
+	#whats-new-post-in-box label,
+	.youzer-sidebar .widget-content .widget-title,
+	.widget_bp_core_members_widget #members-list .vcard .item-title a, 
+	.widget_bp_groups_widget #groups-list li .item-title a,
+	.myCRED-leaderboard .yz-leaderboard-username,
+	.widget_bp_core_members_widget .item-options a, 
+	.widget_bp_groups_widget .item-options a,
+	#friend-list.item-list .item .item-title a,
+	#friend-list.item-list .action a, 
+	#yz-members-list .yzm-user-actions a,
+	#yz-wall-nav li a,
+	.yz-uploader-change-item h2,
+	.avatar-nav-items li a,
+	#bp-delete-avatar, 
+	#bp-delete-cover-image,
+	.editfield fieldset legend,
+	.editfield .field-visibility-settings-notoggle .current-visibility-level, 
+	.editfield .field-visibility-settings-toggle .current-visibility-level, 
+	.editfield .field-visibility-settings-toggle .visibility-toggle-link,
+	.option-content .yz-upload-photo,
+	.yz-directory-filter .item-list-tabs li label, 
+	.yz-directory-filter .item-list-tabs li#members-order-select label,
+	.yz-review-item .yz-head-meta .yz-item-name a,
+	.yz-user-balance-box .yz-box-head,
+	.yz-profile-sidebar .yz-aboutme-description,	
+	.yz-aboutme-name,
+	.yz-tab-post .yz-read-more,
+	.yz-wall-embed .yz-embed-action .friendship-button a, 
+	.yz-wall-embed .yz-embed-action .group-button a, 
+	.yz-wall-embed .yz-embed-action .message-button .yz-send-message,
+	.groups.mygroups #yz-groups-list .item .item-title a,
+	.yz-tab-title-box .yz-tab-title-content h2,
+	&.mycred-history #buddypress.youzer .mycred-table tfoot th, 
+	&.mycred-history #buddypress.youzer .mycred-table thead th,
+	&.follows .youzer #yz-members-list .item .item-title a, 
+	&.my-friends .youzer #yz-members-list .item .item-title a,
+	.yz-user-badges-tab .yz-user-badge-item .yz-user-badge-title,
+	#yz-profile-navmenu .yz-settings-menu a span,
+	.yz-group-navmenu li a,
+	.yz-rating-show-more,
+	.yz-profile-list-widget .yz-more-items a,
+
+	#group-settings-form .radio label, 
+	#group-settings-form label, 
+	.yz-group-settings-tab .radio label, 
+	.yz-group-settings-tab label,
+	.youzer .group-members-list .item .item-title a,
+	&.my-groups .youzer #yz-groups-list .action a,
+	&.my-groups .youzer #yz-groups-list .item .item-title a,
+	.yz-directory-filter #directory-show-search a, 
+	.yz-directory-filter .item-list-tabs li a,
+	.yz-social-buttons .follow-button a, 
+	.yz-social-buttons .friendship-button a, 
+	.yz-social-buttons .message-button a,
+	.youzer .activity-list li.load-more a, 
+	.youzer .activity-list li.load-newest a,
+	.yz-media-filter .yz-filter-item .yz-filter-content span{
+		font-family: $font__heading;		
+		font-weight: $font__heading-weight;		
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+	}
+
+	button,
+	input[type="submit"],
+	.youzer input[type="submit"],
+	#youzer input[type="submit"],
+	#yz-directory-search-box form input[type=submit],
+	.yz-reset-options,
+	.yz-save-options,
+	#send_message_form .submit #send,
+	.item-list-tabs #search-message-form #messages_search_submit,
+	#send-reply #send_reply_button,
+	#bp-browse-button,
+
+	#group-settings-form .yz-group-submit-form #group-creation-previous, 
+	#group-settings-form input[type=submit], 
+	#send-invite-form .submit input, 
+	.yz-group-settings-tab .yz-group-submit-form #group-creation-previous, 
+	.yz-group-settings-tab input[type=submit],
+	.yz-group-manage-members-search #members_search_submit,
+	.yz-group-settings-tab .yz-group-submit-form input
+	{
+		font-family: $font__heading;
+		font-size: $h7_font_size;
+		font-weight: $font__weight-extra;
+		line-height: $font__heading-line-height;	
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+		text-transform:uppercase;
+		@include border-radius(0);
+		height:auto;
+		padding: 12px 20px 12px 20px;
+	}
+
+	.yza-item-button{
+		font-weight: $font__weight-extra;
+		text-transform:uppercase;
+		@include border-radius(0);
+
+	}
+
+	/*12px*/
+	.widget_bp_core_sitewide_messages .bp-site-wide-message button,
+	.youzer-main-content .wp-picker-container .wp-picker-clear,
+	.youzer-main-content .wp-picker-container .wp-color-picker,
+	.widget_bp_core_members_widget .item-options a,
+	.uk-upload-photo .uk-upload-button,
+	#sitewide-notice #message button,
+	.yz-cphoto-options .yz-upload-photo,
+	#yz-directory-search-box form input[type=submit],
+	.group-members #search-members-form #members_search_submit,
+	.pagination .page-numbers,
+	.yz-project-type,
+	.yz-post-type,
+	.yz-user-statistics li h3,
+	.logy-form-actions button,
+	.action-button,
+	.yza-item-button,
+	.yz-items-list-widget .yz-list-item .yz-item-meta .yz-meta-item,
+	.yz-reset-options,
+	.yz-save-options,
+	div.item-list-tabs li a,
+	.yz-pagination .yz-nav-links .page-numbers, 
+	.yz-pagination .yz-pagination-pages,
+	#whats-new-post-in-box label,
+	.widget_bp_core_members_widget .item-options a, 
+	.widget_bp_groups_widget .item-options a,
+	#yz-wall-nav li a,
+	.yz-directory-filter .item-list-tabs li label, 
+	.yz-directory-filter .item-list-tabs li#members-order-select label,
+	.yz-user-balance-box .yz-box-head,
+	.yz-profile-sidebar .yz-aboutme-description,
+	.yz-tab-post .yz-read-more,
+	#yz-profile-navmenu .yz-settings-menu a span,
+	.yz-media-filter .yz-filter-item .yz-filter-content span
+	{	
+		font-size:12px;
+	}
+	/*12px*/
+
+	/*14px*/
+	.logy-form-item .logy-item-content label,
+	.logy-social-buttons .logy-social-title,,
+	.yz-tool-btn .yz-tool-name,
+	.logy-social-buttons li a,	
+	.logy-forgot-password,
+	.yzb-head-content h3,
+	.logy-link-button,	
+	.uk-msg-head h3,
+	.settings-sidebar .account-menus ul li a,
+	.settings-sidebar .account-menus h2,
+	.yz-account-header ul li a,	
+	.yz-account-head h2,	
+	.yz-no-content,
+	#yz-members-list .yzm-user-actions a,
+	#yz-groups-list .item .item-title a,
+	#yz-members-list .yz-fullname,
+	#yz-groups-list .action a,
+	#send-invite-form .submit input,
+	.group-members #search-members-form label input,
+	.yz-recent-posts .yz-post-head .yz-post-title a,
+	.yz-wg-networks.yz-icons-full-width li a,
+	.yz-profile-navmenu .yz-navbar-item a,	
+	.yz-tab-comment .yz-comment-fullname,
+	.yz-post-content .yz-post-title a,
+	.yz-tab-post .yz-post-title a,
+	.yz-widget .yz-widget-title,
+	.yz-box-head .yz-box-title,
+	.yz-quote-owner,
+	.yz-item-title,
+	.uk-option-item label,
+	.yz-items-list-widget .yz-list-item a.yz-item-name,
+	.yz-modal .uk-option-item .option-title,
+	.yz-infos-content .yz-info-label,
+	.yzmsg-form-item label,
+	.members.friends #yz-members-list .item .item-title a,
+	#yz-group-buttons .group-button a,
+	.yz-wall-embed .yz-embed-name,
+	.yz-item-tool .yz-tool-name,
+	.activity-meta a,
+	.widget_bp_core_members_widget #members-list .vcard .item-title a, 
+	.widget_bp_groups_widget #groups-list li .item-title a,
+	.myCRED-leaderboard .yz-leaderboard-username,
+	#friend-list.item-list .item .item-title a,
+	#friend-list.item-list .action a, 
+	#yz-members-list .yzm-user-actions a,
+	.yz-uploader-change-item h2,
+	.avatar-nav-items li a,
+	#bp-delete-avatar, 
+	#bp-delete-cover-image,
+	.editfield fieldset legend,
+	.editfield .field-visibility-settings-notoggle .current-visibility-level, 
+	.editfield .field-visibility-settings-toggle .current-visibility-level,
+	.option-content .yz-upload-photo,
+	.yz-review-item .yz-head-meta .yz-item-name a,
+	.yz-aboutme-name,
+	.yz-wall-embed .yz-embed-action .friendship-button a, 
+	.yz-wall-embed .yz-embed-action .group-button a, 
+	.yz-wall-embed .yz-embed-action .message-button .yz-send-message,
+	.groups.mygroups #yz-groups-list .item .item-title a,
+	&.mycred-history #buddypress.youzer .mycred-table tfoot th, 
+	&.mycred-history #buddypress.youzer .mycred-table thead th,
+	&.follows .youzer #yz-members-list .item .item-title a, 
+	&.my-friends .youzer #yz-members-list .item .item-title a,
+	.yz-user-badges-tab .yz-user-badge-item .yz-user-badge-title,
+	.yz-group-navmenu li a,
+	.yz-rating-show-more,
+	.yz-profile-list-widget .yz-more-items a,
+
+	#group-settings-form .radio label, 
+	#group-settings-form label, 
+	.yz-group-settings-tab .radio label, 
+	.yz-group-settings-tab label,
+	.youzer .group-members-list .item .item-title a,
+	&.my-groups .youzer #yz-groups-list .action a,
+	&.my-groups .youzer #yz-groups-list .item .item-title a,
+	.yz-directory-filter #directory-show-search a, 
+	.yz-directory-filter .item-list-tabs li a,
+	.yz-social-buttons .follow-button a, 
+	.yz-social-buttons .friendship-button a, 
+	.yz-social-buttons .message-button a,
+	.youzer .activity-list li.load-more a, 
+	.youzer .activity-list li.load-newest a,
+	.yz-widget .yz-widget-content p
+	{
+		font-size:14px;
+	}
+	/*14px*/
+
+	/*16px*/
+	.logy-form .logy-form-cover .form-cover-title,
+	.logy-form .form-title h2,
+	.yz-project-content .yz-project-title{
+		font-size:16px;
+	}
+	/*16px*/
+
+	/*18px*/
+	.yzb-head-content h2,
+	.settings-inner-content .options-section-title h2{
+		font-size:18px;
+	}
+	/*18px*/
+
+	/*20px*/
+	.yz-hdr-v3 .yz-name h2,
+	.yz-hdr-v7 .yz-name h2,
+	.yz-tab-title-box .yz-tab-title-content h2{
+		font-size:20px;
+	}
+	/*20px*/	
+
+	/*22px*/
+	.yz-hdr-v1 .yz-name h2,
+	.yz-hdr-v2 .yz-name h2,
+	.yz-hdr-v6 .yz-name h2{
+		font-size:22px;
+	}
+	/*22px*/
+
+	/*24px*/
+	.yz-video-head .yz-video-title{
+		font-size:24px;
+	}
+	/*24px*/
+
+	.yz-widget .yz-widget-title,
+	.youzer-sidebar .widget-content .widget-title{
+		font-weight:700;
+		text-transform:uppercase;
+		font-size:16px;
+	}
+
+	.youzer-sidebar .widget-content .widget-title,
+	.yz-widget .yz-widget-title{
+		color:#000000;
+	}
+
+	.youzer-sidebar .widget-content .widget-title:after{
+		display:none;
+	}
+
+	.yz-user-statistics li h3,
+	div.item-list-tabs li a{
+		text-transform:uppercase;
+	}
+
+	/*-----------------*/
+
+	.yz-recent-posts .yz-post-meta ul li{
+		font-family: $font__main;
+	}	
+
+	.logy-form-item .logy-item-content input,
+	.yzb-head-content .yzb-head-meta,
+	.logy-form .logy-form-message p,
+	.uk-panel-msg .uk-msg-content p,
+	.logy-form .logy-form-desc,
+	[data-yztooltip]:after,
+	.yz-items-list-widget,
+	.yz-my-account-widget,
+	.yz-usermeta li span,
+	.yzb-account-menu a,
+	.yzb-author-infos p,
+	.youzer-dialog-desc,
+	.widget.buddypress,
+	.yz-tooltip:after,
+	#sitewide-notice #message,
+	#sitewide-notice strong,
+	.youzer_msg span,
+	textarea,
+	.logy-form-note,
+	select,
+	.youzer-dialog,
+	input,
+	.uk-popup,
+	.logy,
+	.option-content input:not([type=radio]),
+	.option-content input:not([type=radio]):not(.uk-upload-button):not(.wp-color-picker):not(.wp-picker-clear),
+	.option-content textarea,
+	.option-content select,
+	.uk-option-item .option-desc,
+	.yz-account-head span,	
+	#yz-directory-search-box form input[type=text],
+	#yz-groups-list .item .item-meta span,
+	#yz-members-list .yz-name,
+	.yz-group-settings-tab textarea,
+	.yz-group-settings-tab .yz-group-field-item input[type=text],
+	.yz-group-manage-members-search #search-members-form #members_search,
+	.yz-tab-comment .yz-comment-excerpt p,
+	.yz-post-plus4imgs .yz-post-imgs-nbr,	
+	.yz-tab-comment .yz-comment-title,	
+	.yz-form .youzer-form-message p,
+	.yz-infos-content ul li strong,
+	.yz-video-head .yz-video-desc,
+	.yz-quote-content blockquote,
+	.yz-tab-post .yz-post-text p,
+	.yz-link-content p,
+	.yz-infos-content ul li p,
+	.yz-info-msg p strong,
+	.lb-data .lb-caption,
+	.lb-data .lb-number,
+	.yz-profile-login,
+	.youzer_msg span,
+	.yz-info-msg p,
+	.yz-box-404 p,
+	.yz-aboutme-bio,
+	.nice-select, 
+	div.item-list-tabs .yz-bar-select,
+	.yz-name .yz-user-status,
+	.yz-user-ratings-details .yz-user-ratings-rate, 
+	.yz-user-ratings-details .yz-user-ratings-total,
+	.yz-infos-content .yz-info-data, 
+	.yz-infos-content .yz-info-data a,
+	.members.friends #yz-members-list .item .item-meta span,
+	.nice-select .option,
+	.nice-select .current,
+	#whats-new-post-in-box .nice-select .current,
+	.activity-header p,
+	.activity-header .activity-head p a,
+	.activity-header .time-since, 
+	.activity-header a.activity-time-since span,
+	.yz-wall-embed .yz-embed-meta,
+	#message p,
+	.yz-wall-options .yz-wall-opts-item label,
+	.yz-wall-custom-form .yz-wall-cf-item input, 
+	.yz-wall-custom-form .yz-wall-cf-item textarea,
+	.yz-pinned-post-tag,
+	.widget_bp_core_members_widget #members-list .vcard .item-meta .activity, 
+	.widget_bp_groups_widget #groups-list li .item-meta .activity,
+	.myCRED-leaderboard .yz-leaderboard-points,
+	.myCRED-leaderboard .yz-leaderboard-position,
+	#friend-list.item-list .item .item-meta span,
+	.yz-item-content p,
+	.yz-uploader-change-item p,
+	.bp-avatar p,
+	div.bp-avatar-status p.warning, 
+	div.bp-cover-image-status p.warning, 
+	div.bp-cover-image-status p.warning, 
+	div.bp-avatar-status p.warning,
+	.editfield label .bp-required-field-label, 
+	.editfield legend .bp-required-field-label,
+	.editfield .field-visibility-settings-notoggle, 
+	.editfield .field-visibility-settings-toggle,
+	.editfield input:not([type=radio]):not([type=checkbox]),	
+	.yz-items-list-widget .yz-list-item .yz-item-meta .yz-meta-item,
+	.yz-review-item .yz-head-meta .yz-item-date,
+	.yz-review-item .yz-item-content .yz-item-desc,
+	.yz-link-url,
+	.groups.mygroups #yz-groups-list .item .item-meta span,
+	.yz-tab-title-box .yz-tab-title-content span,
+	&.mycred-history #buddypress.youzer .mycred-table tbody td,
+	&.follows .youzer #yz-members-list .item .item-meta span, 
+	&.my-friends .youzer #yz-members-list .item .item-meta span,
+	.yz-box-content p,
+	.yz-project-content .yz-project-text p,
+	.yz-skill-bar-percent, 
+	.yz-skillbar-title,
+
+	#group-settings-form .yz-group-field-item input[type=text], 
+	#group-settings-form textarea,
+	.youzer .group-members-list .item .item-meta,
+	&.my-groups .youzer #yz-groups-list .item .item-meta span
+	{
+		font-family: $font__main;
+		font-size: 14px;
+		font-weight: $font__main-weight;	
+		letter-spacing: $font__main-letter-spacing;			
+		text-decoration: $font__main-text-decoration;
+		font-style: $font__main-style;
+	}
+
+	.yz-quote-content blockquote{
+		font-size:18px;
+		font-weight:500;
+		font-style:italic;
+	}
+
+	/*12px*/
+	[data-yztooltip]:after,
+	.yz-usermeta li span,
+	.yz-tab-post .yz-post-meta ul li,
+	.lb-data .lb-number,
+	.yz-recent-posts .yz-post-meta ul li,
+	.yz-tab-post .yz-post-meta ul li,
+	.yz-name .yz-user-status,
+	.yz-user-ratings-details .yz-user-ratings-rate, 
+	.yz-user-ratings-details .yz-user-ratings-total,
+	.members.friends #yz-members-list .item .item-meta span,
+	.activity-header .time-since, 
+	.activity-header a.activity-time-since span,
+	.yz-wall-embed .yz-embed-meta,
+	.yz-wall-options .yz-wall-opts-item label,
+	.yz-pinned-post-tag,
+	.widget_bp_core_members_widget #members-list .vcard .item-meta .activity, 
+	.widget_bp_groups_widget #groups-list li .item-meta .activity,
+	.myCRED-leaderboard .yz-leaderboard-points,
+	.myCRED-leaderboard .yz-leaderboard-position,
+	#friend-list.item-list .item .item-meta span,
+	.editfield label .bp-required-field-label, 
+	.editfield legend .bp-required-field-label,
+	.yz-items-list-widget .yz-list-item .yz-item-meta .yz-meta-item,
+	.yz-review-item .yz-head-meta .yz-item-date,
+	.groups.mygroups #yz-groups-list .item .item-meta span,
+	&.follows .youzer #yz-members-list .item .item-meta span, 
+	&.my-friends .youzer #yz-members-list .item .item-meta span,
+	.yz-box-content p,
+	.yz-project-meta ul li,
+
+	.youzer .group-members-list .item .item-meta,
+	&.my-groups .youzer #yz-groups-list .item .item-meta span
+	{
+		font-size:12px;
+	}
+	/*12px*/
+
+	.nice-select .current{
+		font-weight:500;
+	}
+	.yz-name .yz-user-status{
+		line-height:1.0;
+	}
+
+	div.item-list-tabs .yz-activity-search button{
+		min-width: 0;
+	}
+	div.item-list-tabs li .yz-dropdown-area{
+		z-index: 1;
+	}
+}
+
+body.bp-legacy{
+	.logy-page-box{
+		padding-top:60px;
+		padding-bottom:80px;
+	}
+	.logy_field_indication{
+		top:2px;
+	}
+
+	.logy-remember-me .logy_checkbox_field .logy_field_indication:after{
+		top:4px;
+		left:9px;
+	}
+
+	#logy_signup_form .logy-section-title{
+		margin-bottom:40px;
+		margin-top:10px;		
+	}
+
+	#profile-details-section{
+		.logy-section-title{
+			margin-top:50px;
+		}
+	}
+
+	.logy-form .logy-form-actions button, 
+	.logy-form .logy-link-button{
+		font-family: $font__heading;
+		font-size: $h7_font_size;
+		font-weight: $font__weight-extra;
+		line-height: $font__heading-line-height;	
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+		text-transform:uppercase;
+		@include border-radius(0);
+		height:auto;
+		padding: 12px 20px 12px 20px;
+	}
+
+	.logy-form .logy-link-button{
+		&:hover,
+		&:focus{
+			color:#FFFFFF;
+		}
+	}
+
+	.logy-form .form-title h2,
+	.logy-form .logy-form-cover .form-cover-title,
+	.logy-form-item .logy-item-content label,
+	.logy-form-actions button,
+	#logy_signup_form fieldset legend, 
+	#logy_signup_form label,
+	#logy_signup_form .logy-section-title span,
+	#logy_signup_form .field-visibility-settings-notoggle .current-visibility-level, 
+	#logy_signup_form .field-visibility-settings-toggle .current-visibility-level,
+	#logy_signup_form label .field-visibility-text,
+	#logy_signup_form .field-visibility-settings .field-visibility-settings-close,
+	#logy_signup_form .field-visibility-settings-notoggle .visibility-toggle-link, 
+	#logy_signup_form .field-visibility-settings-toggle .visibility-toggle-link{
+		font-family: $font__heading;		
+		font-weight: $font__heading-weight;		
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+	}
+
+	#logy_signup_form .field-visibility-settings-notoggle .current-visibility-level, 
+	#logy_signup_form .field-visibility-settings-toggle .current-visibility-level,
+	#logy_signup_form .field-visibility-settings-notoggle .visibility-toggle-link, 
+	#logy_signup_form .field-visibility-settings-toggle .visibility-toggle-link{
+		font-size:12px;
+	}
+
+	.logy-form .logy-form-actions button, 
+	.logy-form .logy-link-button,
+	.logy-with-labels .logy-form-item label,
+	.logy-form-actions button,
+	#logy_signup_form fieldset legend, 
+	#logy_signup_form label,
+	#logy_signup_form .logy-section-title span,
+	#logy_signup_form label .field-visibility-text,
+	#logy_signup_form .field-visibility-settings .field-visibility-settings-close{
+		font-size:14px;
+	}
+
+	.logy-form .form-cover-title{
+		font-size:16px;
+	}
+
+	.logy-forgot-password, 
+	.logy-form .form-title h2,
+	.logy-form .logy-form-desc, 
+	.logy-form .logy-form-message p, 	
+	.logy-form-item .logy-item-content input, 	
+	.logy-form-note, 
+	.logy-link-button, 
+	.logy-social-buttons .logy-social-title, 
+	.logy-social-buttons li a,
+	#logy_signup_form label .bp-required-field-label, 
+	#logy_signup_form legend .bp-required-field-label,
+	.logy-form-note.logy-terms-note a{
+		font-family: $font__main;
+		font-size: 14px;
+		font-weight: $font__main-weight;	
+		letter-spacing: $font__main-letter-spacing;			
+		text-decoration: $font__main-text-decoration;
+		font-style: $font__main-style;
+	}
+
+	#logy_signup_form label .bp-required-field-label, 
+	#logy_signup_form legend .bp-required-field-label{
+		font-size:10px;
+	}
+
+	#logy_signup_form .field-visibility-settings-notoggle, 
+	#logy_signup_form .field-visibility-settings-toggle{
+		font-size:14px;
+	}
+
+	.lp-preview-thubmnail-buttons button,
+	.lp-button-cancel{
+		min-width:0;
+		width:auto;
+	}
+
+	.lp-preview-thubmnail-buttons button i,
+	.lp-button-cancel i{
+		display:inline;
+		color:#FFFFFF;
+		line-height:1;
+		font-size:12px;
+	}
+
+	.lp-button-cancel{
+		position:absolute !important;
+	}
+
+	.youzer .lp-prepost-wrap .lp-preview-title{
+		font-size:16px;
+		font-weight:500;
+	}
+
+	.lp-preview-description{
+		margin-top:20px;
+		margin-bottom:20px;
+		font-size:14px;
+	}
+
+	.lp-preview-no-thubmnail-text{
+		font-size:12px;
+	}
+}
+
+.youzer-dialog-container .yz-dialog-buttons a{
+	text-decoration: none;
+}
+
+.youzer-sidebar .widget-mycred-list .myCRED-leaderboard{
+	padding:25px;
+}
+
+.youzer-sidebar .widget-mycred-list .myCRED-leaderboard .yz-leaderboard-points{
+	margin-top: 0;
+}

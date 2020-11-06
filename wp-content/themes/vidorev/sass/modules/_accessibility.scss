@@ -1,0 +1,67 @@
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+
+	&:focus {
+		background-color: $color__background-screen;
+		border-radius: 3px;
+		box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+		clip: auto !important;
+		color: $color__text-screen;
+		display: block;
+		@include font-size(0.875);
+		font-weight: bold;
+		height: auto;
+		left: 5px;
+		line-height: normal;
+		padding: 15px 23px 14px;
+		text-decoration: none;
+		top: 5px;
+		width: auto;
+		z-index: 100000; /* Above WP toolbar. */
+	}
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+.scroll-to-top-button{
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	z-index:3;
+	a{
+		min-width:0;
+		i.fa{
+			margin-left:5px;
+		}
+		text-transform:uppercase;
+	}	
+
+	@include prefixer(transform, translateY(20%), spec webkit ms);	
+	@include transiton-builder(opacity 0.3s, visibility 0.3s, transform 0.3s);		
+
+	opacity:0;
+	visibility:hidden;
+	pointer-events:none;
+
+	&.active-item{
+		opacity:1;
+		visibility:visible;
+		pointer-events:auto;
+		@include prefixer(transform, translateY(0), spec webkit ms);
+	}
+}
+
+body.single.single-post.single-format-video:not(.disable-floating-video){
+	.scroll-to-top-button{
+		display:none;		
+	}
+}

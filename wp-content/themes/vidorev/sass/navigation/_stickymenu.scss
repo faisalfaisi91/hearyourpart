@@ -1,0 +1,59 @@
+body.admin-bar{
+	.main-nav.sticky-menu{
+		top:32px;
+		@media(max-width:782px){
+			top:46px;
+		}
+		@media(max-width:600px){
+			top:0;
+		}
+	}
+}
+.main-nav{						
+	&.sticky-menu{
+		position:fixed;
+		top:0;
+		left:0;
+		right:0;
+		opacity:0;
+		visibility:hidden;	
+		z-index:9;
+		@include prefixer(transform, translateY(-110%), spec webkit ms);
+		@include prefixer(box-shadow, 0 0 25px $color__navigation-box-shadow, spec webkit);
+
+		.nav-mobile-menu{
+			min-height:50px;
+		}
+		.nav-logo-img{
+			min-height:50px;
+			@media(min-width:992px){
+				.sticky-logo{
+					display:block;
+				}
+				.main-logo,
+				.main-logo-mobile{
+					display:none;
+				}
+			}			
+		}
+		.nav-menu{
+			> ul > li {					
+				> a {
+					min-height: 50px;
+					line-height: 50px;
+				}
+			}
+		}
+
+		&.active-item{
+			@include prefixer(transform, translateY(0), spec webkit ms);
+			opacity:1;
+			visibility:visible;			
+		}
+		&.setTransit{
+			@include transiton-builder(transform 0.2s, opacity 0.2s, visibility 0.2s);	
+		}		
+	}
+		
+	
+}

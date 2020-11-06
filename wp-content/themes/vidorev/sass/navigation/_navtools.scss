@@ -1,0 +1,50 @@
+.hasVideos{		
+	width:5px;
+	height:5px;
+	@include border-radius(50%);
+	display:block;
+	position:absolute;
+	top:5px;
+	right:5px;
+	&:before{
+		
+	}
+	@include prefixer(animation, notice 1.8s infinite ease-in-out, spec webkit);
+	@keyframes notice {
+		from {
+	    	transform: scale3d(1, 1, 1);
+	    	background-color: $color__hasvideo-watch-later-icon-2;
+	  	}
+
+	  	50% {
+	    	transform: scale3d(1.15, 1.15, 1.15);
+	    	background-color: $color__hasvideo-watch-later-icon-1;
+	  	}
+
+	  	to {
+	    	transform: scale3d(1, 1, 1);
+	    	background-color: $color__hasvideo-watch-later-icon-2;
+	  	}
+	}
+	@-webkit-keyframes notice {
+		from {
+	    	transform: scale3d(1, 1, 1);
+	    	background-color: $color__hasvideo-watch-later-icon-2;
+	  	}
+
+	  	50% {
+	    	transform: scale3d(1.15, 1.15, 1.15);
+	    	background-color: $color__hasvideo-watch-later-icon-1;
+	  	}
+
+	  	to {
+	    	transform: scale3d(1, 1, 1);
+	    	background-color: $color__hasvideo-watch-later-icon-2;
+	  	}
+	}
+}
+
+hr.line-light{
+	border-color:rgba(255,255,255,0.1);
+	margin:20px 0;
+}

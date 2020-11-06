@@ -1,0 +1,42 @@
+table {
+	width:100%; 
+	margin-top:1.8em; 
+	margin-bottom:1.8em; 
+	border-collapse: collapse;
+	text-align:left;
+
+	thead{
+		background-color:#EAEAEA;
+	}
+	
+	tbody > tr:nth-child(even) { 
+	 	background-color:rgba(0,0,0,0.02);
+	}
+
+	tbody tr > *,
+	thead tr > * {
+	 	padding:13px 20px 12px 20px; 
+	 	border:none;  
+	 	border:1px solid rgba(0,0,0,0.1);
+	}
+	
+}
+
+.dark-background{
+	table {
+
+		thead{
+			background-color:rgba(255,255,255,0.1);
+		}
+		
+		tbody > tr:nth-child(even) { 
+		 	background-color:rgba(255,255,255,0.05);
+		}
+
+		tbody tr > *,
+		thead tr > * { 
+		 	border-color:rgba(255,255,255,0.1);
+		}
+		
+	}
+}
