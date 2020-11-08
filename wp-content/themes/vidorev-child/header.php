@@ -9,7 +9,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('open-side-menu'); ?>>
+<body <?php body_class('close-side-menu'); ?>>
 
 	<?php
 	wp_body_open();

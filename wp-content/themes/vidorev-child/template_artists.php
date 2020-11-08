@@ -71,20 +71,6 @@ $total_artists = $query->found_posts;
                             <?php
                             endwhile; ?>
                         </div>
-                        <div class="blog-pagination blog-pagination-control">
-                            <nav class="pagination-infinite">
-                                <div class="infinite-scroll-style infinite-scroll-control" data-template="template-parts/content" data-style="movie-grid">
-                                    <div class="infinite-la-fire">
-                                        <div>
-                                        </div>
-                                        <div>
-                                        </div>
-                                        <div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
                     </div>
                 </main>
             </div>
